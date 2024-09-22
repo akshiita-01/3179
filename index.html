@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia Renewable Energy Consumption</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <h1>Australia Renewable Energy Consumption</h1>
+    <div id="vis"></div>
+
+    <script type="text/javascript">
+        var spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Australian State Renewable Energy Consumption 2022-2023",
+    "width": 490,
+    "height": 500,
+    "projection": {"type": "equalEarth"},
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/ne_10m%20(3).json",
+          "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+        },
+        "transform": [
+          {
+            "lookup": "properties.name",  
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/3179mapdata(staterenewable).csv",
+                "format": {"type": "csv"}
+              },
+              "key": "State",  
+              "fields": ["Renewable Energy %"]
+            }
+          }
+        ],
+        "mark": {"type": "geoshape"},
+        "encoding": {
+          "color": {
+            "field": "Renewable Energy %",
+            "type": "quantitative",
+            "scale": {
+              "domain": [0, 44.1],  
+              "range": ["#f7fcf0", "#00441b"]
+            }
+          },
+          "tooltip": [
+            {"field": "properties.name", "type": "nominal", "title": "State"},
+            {"field": "Renewable Energy %", "type": "quantitative"}
+          ]
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/centroid.csv",
+          "format": {"type": "csv"}
+        },
+        "mark": {
+          "type": "text",
+          "dy": -10,  
+          "fontSize": 10,
+          "fontWeight": "bold",
+          "color": "black"
+        },
+        "encoding": {
+          "longitude": {"field": "Longitude", "type": "quantitative"},
+          "latitude": {"field": "Latitude", "type": "quantitative"},
+          "text": {"field": "State", "type": "nominal"}
+        }
+      }
+    ]
+        };
+
+        vegaEmbed('#vis', spec);
+    </script>
+</body>
+</html>
