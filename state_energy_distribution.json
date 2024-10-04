@@ -1,0 +1,85 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 470,
+    "height": 300,
+    "title": "Energy Mix by State",
+    "data": {
+      "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/week%2010%20hw/Australian_energymixbystateandfuel.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "filter": "datum.State != null"
+      }
+    ],
+    "layer": [
+      {
+        "selection": {
+          "state_highlight": {
+            "type": "single",
+            "fields": ["State"],
+            "bind": {
+              "input": "select",
+              "options": [
+                "All",
+                "AUS",
+                "NSW",
+                "NT",
+                "QLD",
+                "SA",
+                "TAS",
+                "VIC",
+                "WA"
+              ],
+              "name": "Highlight State: "
+            }
+          }
+        },
+        "mark": "circle",
+        "encoding": {
+          "x": {"field": "FuelType", "type": "nominal"},
+          "y": {"field": "Percentage", "type": "quantitative"},
+          "size": {"field": "Percentage", "type": "quantitative"},
+          "color": {"field": "State", "type": "nominal"},
+          "opacity": {
+            "condition": {
+              "selection": "state_highlight",
+              "value": 0.9
+            },
+            "value": 0.1
+          },
+          "tooltip": [
+            {"field": "State", "type": "nominal"},
+            {"field": "FuelType", "type": "nominal"},
+            {"field": "Percentage", "type": "quantitative"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": -35,
+          "dy": 30,
+          "fontSize": 8
+        },
+        "encoding": {
+          "text": {
+            "condition": {
+              "test": "datum.State === 'NT' && datum.FuelType === 'Coal'",
+              "value": ["Northern Territory uses the most","gas (70.4%) and the least", "renewable energy (1.3%)"]
+            },
+            "value": null
+          },
+          "x": {"field": "FuelType"},
+          "y": {
+            "field": "Percentage",
+            "axis": null  
+          },
+          "color": {"value": "black"}
+        }
+      }
+    ]
+  }
+  
