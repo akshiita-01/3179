@@ -2,11 +2,6 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 470,
     "height": 300,
-    "autosize": {
-      "type": "fit",
-      "contains": "padding"
-    },
-    "padding": {"left": 10, "right": 10, "top": 10, "bottom": 10}, 
     "title": "Energy Mix by State",
     "data": {
       "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/week%2010%20hw/Australian_energymixbystateandfuel.csv",
