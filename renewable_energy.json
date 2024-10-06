@@ -3,7 +3,11 @@
     "title": "Australian State Renewable Energy Consumption 2022-2023",
     "width": 470,
     "height": 300,
-    "projection": {"type": "equalEarth"},
+    "projection": {
+      "type": "equalEarth",
+      "scale": 600},
+      "padding": {"left": 10, "right": 10, "top": 10, "bottom": 10},
+    
     "layer": [
       {
         "data": {
