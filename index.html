@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Multiple Visualisations | An Example</title>
+  <title>Renewable Energy</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -18,8 +18,43 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <!-- CSS --> 
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .description {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #666;
+    }
+
+    .vis-container {
+      height: 500px;
+      width: 100%; /* Equal width for both visualizations */
+    }
+
+    .pure-u-1-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #vis1, #vis2 {
+      width: 100%;
+      height: 100%; /* Equal height for both visualizations */
+    }
+  </style>
+
+
+
 
 
 </head>
@@ -30,8 +65,9 @@
 
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-1" style = "margin-top: auto;">
+      <div class="pure-u-1-1" style = "margin-top: auto; ">
         <h1>Renewable Energy Statistics Australia </h1>
+        <p class="description">A visual analysis of Australia's renewable energy usage by state and fuel type.</p>
       </div>
     </div>
     <!-- end pure grid group -->
