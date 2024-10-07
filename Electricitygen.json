@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/Electriciygenfromrenewable.csv",  
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum['Generated Energy (GWh)'] !== null && datum['Generated Energy (GWh)'] !== '' && datum['Generated Energy (GwH)'] > 0"
+    },
+    {
+      "calculate": "datum['Generated Energy (GWh)']",
+      "as": "Generated Energy"
+    }
+  ],
+  "mark": "rect",
+  "encoding": {
+    "x": {
+      "field": "Time",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Fuel Type",
+      "type": "nominal",
+      "title": "Renewable Source"
+    },
+    "color": {
+      "field": "Generated Energy (GwH)",
+      "type": "quantitative",
+      "title": "Generated Energy (GWh)",
+      "scale": {
+        "scheme": "blues"  
+      }
+    },
+    "tooltip": [
+      { "field": "Time", "type": "ordinal", "title": "Year" },
+      { "field": "Fuel Type", "type": "nominal", "title": "Fuel Type" },
+      { "field": "Generated Energy (GwH)", "type": "quantitative", "title": "Generated Energy (GWh)" }
+    ]
+  },
+  "width": 500,
+  "height": 400,
+  "title": "Renewable Energy Generation (GWh) by Fuel Type and Year"
+}
