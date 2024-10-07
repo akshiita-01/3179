@@ -1,0 +1,80 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title" : "Australian Energy Production 2001-2023",
+    "data": {
+      "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/Australian_energybyfuel.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "layer": [
+      {
+        "mark": {
+          "type": "line",
+          "strokeWidth": 2.0
+        },
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          "y": {
+            "field": "Production (GWh)",
+            "type": "quantitative",
+            "title": "Production (GWh)"
+          },
+          "color": {
+            "field": "Fuel Type",
+            "type": "nominal",
+            "title": "Fuel Type",
+            "scale": {
+              "domain": ["Black coal", "Brown coal", "Oil", "Natural gas", "Renewable"],
+              "range": ["#100000", "#7B3F00", "#FFCC00", "#6A0AD6", "#006400"]
+            },
+            "legend" : {
+                "title" : "Fuel Type"
+            }
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "stroke": "black",
+          "strokeWidth": 0.5,
+          "size": 40  
+        },
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          "y": {
+            "field": "Production (GWh)",
+            "type": "quantitative",
+            "title": "Production (GWh)"
+          },
+          "color": {
+            "field": "Fuel Type",
+            "type": "nominal",
+            "title": "Fuel Type",
+            "scale": {
+              "domain": ["Black coal", "Brown coal", "Oil", "Natural gas", "Renewable"],
+              "range": ["#100000", "#7B3F00", "#FFCC00", "#6A0AD6", "#006400"]
+            }
+          },
+          "tooltip": [
+            {"field": "Year", "type": "ordinal", "title": "Year"},
+            {"field": "Fuel Type", "type": "nominal", "title": "Fuel Type"},
+            {"field": "Production (GWh)", "type": "quantitative", "title": "Production (GWh)"}
+          ]
+        }
+      }
+    ],
+    "width": 500,
+    "height": 400
+  }
+  
