@@ -1,0 +1,86 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australian Energy Consumption by Sector",
+  "width": 250,
+  "height": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/Sectorenergy.csv",
+    "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "Yearfilter",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2001,
+        "max": 2023,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    },
+    {
+      "name": "ShowAll",
+      "value": false,
+      "bind": {
+        "input": "checkbox",
+        "name": "Show All Years"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "toNumber(replace(datum.Value, ',', ''))", 
+      "as": "Value"
+    },
+    {
+      "filter": "ShowAll ? true : datum.year == Yearfilter" 
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 60 
+      },
+      "encoding": {
+        "theta": {
+          "field": "Value",
+          "type": "quantitative",
+          "stack": true 
+        },
+        "color": {
+          "field": "Sector",
+          "type": "nominal",
+          "legend": {"title": "Sector"}
+        },
+        "tooltip": [
+          {"field": "Sector", "type": "nominal", "title": "Sector"},
+          {"field": "Value", "type": "quantitative", "title": "Energy (PJ)"},
+          {"field": "year", "type": "nominal", "title": "Year"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "radius": 90 
+      },
+      "encoding": {
+        "text": {
+          "condition": {
+            "test": "ShowAll",
+            "value": "" 
+          },
+          "field": "Sector",
+          "type": "nominal"
+        },
+        "theta": {
+          "field": "Value",
+          "type": "quantitative",
+          "stack": true 
+        }
+      }
+    }
+  ]
+}
