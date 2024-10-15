@@ -3,19 +3,26 @@
 
 <head>
   <title>Renewable Energy</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+  <!-- CSS --> 
+
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
-      background-color: #def4c4;
     }
 
     h1 {
@@ -23,102 +30,86 @@
     }
 
     .description {
-      text-align: left;
+      text-align: center;
       margin-bottom: 20px;
       font-size: 18px;
-      color: black; /* Changed to black */
+      color: #666;
     }
 
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* Two equal columns */
-      grid-template-rows: auto auto auto; /* Three rows */
-      grid-template-areas:
-        "text1 vis1";
-      grid-gap: 40px; /* Space between grid items */
-      width: 95%;
-      margin: 20px auto; /* Center grid on page */
+    .vis-container {
+      height: 500px;
+      width: 100%; /* Equal width for both visualizations */
     }
 
-    #vis1, #vis2, #vis3, #vis4, #vis5, #vis6 {
+    .pure-u-1-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #vis1, #vis2 {
       width: 100%;
-      height: 100%; /* Set height for visualizations */
-    }
-
-    #text1, #text2, #text3 {
-      display: block;
-      width: 100%; /* Set width for text containers */
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-
-    .info-box {
-      background-color: darkgreen; /* Dark green background */
-      color: white; /* White text for contrast */
-      padding: 15px;
-      text-align: center;
-      font-weight: bold;
-      text-decoration: underline;
-      font-family: Arial, sans-serif; /* Change to sans-serif font */
-      margin: 20px 0; /* Margin for spacing */
-    }
-
-    .final-text {
-      background-color: darkgreen; /* Dark green background */
-      color: white; /* White text for contrast */
-      padding: 15px;
-      text-align: center;
-      font-weight: bold;
-      text-decoration: underline;
-      font-family: Arial, sans-serif; /* Change to sans-serif font */
-      margin: 20px 0; /* Margin for spacing */
+      height: 100%; /* Equal height for both visualizations */
     }
   </style>
+
+
+
+
+
 </head>
 
-<body>
+<body style = "background-color: #def4c4;">
 
   <div class="page">
-    <div class="pure-g">
-      <div class="pure-u-1-1" style="margin-top: auto;">
-        <h1>Renewable Energy Statistics Australia</h1>
-        <p class="description">A visual analysis of Australia's renewable energy usage by state and fuel type.</p>
-      </div>
-    </div>
 
-    <div class="grid-container">
-      <div id="text1" class="text-container" style="grid-area: left;">
-        <p>Renewable energy consumption by the different states. The colours show locations of different plants. 
-          To interact with the map, use the sliders below it to:
-          <br> - Zoom in/out of the map
-          <br> - Pan left/right
-          <br> - Pan up/down
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1" style = "margin-top: auto; ">
+        <h1>Renewable Energy Statistics Australia </h1>
+        <p class="description">A visual analysis of Australia's renewable energy usage by state and fuel type.</p>
+        <p class="description" font-size = "15px" text-align = "center" > Please use the drop down menus and click on the legends to interact 
+          with the graphs and find out more about how energy is produced and 
+          used in Australia and its states over the years! 
         </p>
       </div>
-      <div id="vis1" class="vis-container" style="grid-area: vis1;"></div>
     </div>
+    <!-- end pure grid group -->
 
-    <div class="info-box">Sectors using fuel and its import/export</div>
-
-    <div class="grid-container">
-      <div id="vis2" class="vis-container" style="grid-area: vis2;"></div>
-      <div id="vis3" class="vis-container" style="grid-area: vis3;"></div>
-      <div id="vis4" class="vis-container" style="grid-area: vis3;"></div>
-    </div>
-   
-
-    <div class="info-box">Sectors using fuel and its import/export</div>
-
-    <div class="grid-container">
-      <div id="vis5" class="vis-container" style="grid-area: vis5;">
+    <!-- pure grid group -->
+    <div class="pure-g"> 
+      <div class="pure-u-1-2">
+        <div id="vis1" class="vis-container"></div>
       </div>
-      <div id="vis6" class="vis-container" style="grid-area: vis6;"></div>
-    </div>
-    
+<div class="pure-u-1-2">
+  <div id="vis2" class="vis-container" ></div>
+</div>
+</div>
+    <!-- end pure grid group -->
 
-    <div class="final-text">
-      <p>As you can see, Tasmania stands out in terms of renewable energy usage, mostly hydro (water), while the Northern Territory has low renewable energy consumption and high non-renewable energy production. Refined products are imported the most due to a lack of domestic production, and coal is exported the most because of the extensive number of coal plants.</p>
-    </div>
+<!-- Add the third visualization here -->
+<div class="pure-g">
+  <div class="pure-u-1-2">
+    <div id="vis3" class="vis-container"></div>
+    <p class="description" style = "margin-right: auto;">Now that you know how Australian states perform, please interact to see how Australia as a whole generates and uses renewable energy </p>
+  </div>
+</div>
+<div class="pure-u-1-2">
+  <div id="vis4" class="vis-container"></div> 
+</div>
+</div>
+
+<div class="pure-g">
+  <div class="pure-u-1-1">
+    <div id="vis5" class="vis-container"></div>
+    <p class="description" style = "margin-right: auto;">New added charts </p>
+  </div>
+</div>
+<div class="pure-u-1-2">
+  <div id="vis6" class="vis-container"></div> 
+</div>
+</div>
+<!-- end pure grid group -->
 
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
@@ -126,7 +117,8 @@
       </div>
     </div>
 
-  </div>
+
+  </div> <!-- end page -->
 
   <script type="text/javascript">
     var specVis1 = "./renewable_energy.json";
@@ -137,11 +129,24 @@
     var specVis6 = "./Sectorenergy.json"
 
     vegaEmbed('#vis1', specVis1, { "actions": false });
-    vegaEmbed('#vis2', specVis2, { "actions": false }).catch(console.error);
-    vegaEmbed('#vis3', specVis3, { "actions": false }).catch(console.error);
-    vegaEmbed('#vis4', specVis4, { "actions": false }).catch(console.error);
-    vegaEmbed('#vis5', specVis5, { "actions": false }).catch(console.error);
-    vegaEmbed('#vis6', specVis6, { "actions": false }).catch(console.error);
+
+    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
+      // Access the Vega view instance for the heatmap
+    }).catch(console.error);
+    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance for the heatmap
+    }).catch(console.error);
+    vegaEmbed('#vis6', specVis6, { "actions": false }).then(function (result) {
+      // Access the Vega view instance for the heatmap
+    }).catch(console.error);
+
+    
   </script>
 </body>
 
