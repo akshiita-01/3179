@@ -32,6 +32,7 @@
       "filter": "FlowFilternew == 'All' || datum.FlowType == FlowFilternew"
     }
   ],
+  
   "encoding": {
     "x": {
       "field": "Year",
@@ -41,7 +42,7 @@
     "y": {
       "field": "Scaled Log Transformation:",
       "type": "quantitative",
-      "axis": { "title": "Scaled Log Transformation", "grid": false },
+      "axis": { "title": "Scaled Value (PJ)", "grid": false },
       "scale": { "domain": [0, 225] }  
     },
     "color": { "field": "FuelType", "type": "nominal" },
@@ -60,9 +61,12 @@
         "y": { "field": "Scaled Log Transformation:", "aggregate": "sum" },
         "color": { "field": "FuelType" },
         "tooltip": [
-          { "field": "FuelType", "type": "nominal" },
-          { "field": "FlowType", "type": "nominal" },
-          { "field": "Scaled Log Transformation:", "type": "quantitative" }
+          { "field": "Year", "type": "nominal" },
+          { "field": "FuelType", "type": "nominal", "title": "Fuel Type" },
+          { "field": "FlowType", "type": "nominal", "title": "Import/Export" },
+          { "field": "Value (PJ)", "type": "nominal", "title": "Actual Value (PJ)" },
+          { "field": "Scaled Log Transformation:", "type": "quantitative", "title": "Scaled Value" }
+
         ]
       }
     }
