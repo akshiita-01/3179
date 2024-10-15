@@ -34,24 +34,20 @@
       grid-template-columns: 1fr 1fr; /* Two equal columns */
       grid-template-rows: auto auto auto; /* Three rows */
       grid-template-areas:
-        "vis1 text1"
-        "text2 vis2"
-        "vis3 text3";
+        "text1 vis1";
       grid-gap: 40px; /* Space between grid items */
       width: 95%;
-      justify-items: center; /* Center items horizontally */
-      align-items: center; /* Center items vertically */
       margin: 20px auto; /* Center grid on page */
     }
 
     #vis1, #vis2, #vis3, #vis4, #vis5, #vis6 {
-      width: 90%;
-      height: 400px; /* Set height for visualizations */
+      width: 100%;
+      height: 100%; /* Set height for visualizations */
     }
 
     #text1, #text2, #text3 {
       display: block;
-      width: 55%; /* Set width for text containers */
+      width: 100%; /* Set width for text containers */
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -68,9 +64,14 @@
     }
 
     .final-text {
+      background-color: darkgreen; /* Dark green background */
+      color: white; /* White text for contrast */
+      padding: 15px;
       text-align: center;
-      margin-top: 20px;
-      color: black;
+      font-weight: bold;
+      text-decoration: underline;
+      font-family: Arial, sans-serif; /* Change to sans-serif font */
+      margin: 20px 0; /* Margin for spacing */
     }
   </style>
 </head>
@@ -86,8 +87,7 @@
     </div>
 
     <div class="grid-container">
-      <div id="vis1" class="vis-container" style="grid-area: vis1;"></div>
-      <div id="text1" class="text-container" style="grid-area: text1;">
+      <div id="text1" class="text-container" style="grid-area: left;">
         <p>Renewable energy consumption by the different states. The colours show locations of different plants. 
           To interact with the map, use the sliders below it to:
           <br> - Zoom in/out of the map
@@ -95,20 +95,21 @@
           <br> - Pan up/down
         </p>
       </div>
+      <div id="vis1" class="vis-container" style="grid-area: vis1;"></div>
+    </div>
+
       <div id="text2" class="text-container" style="grid-area: text2;">
         <p>Now we will move on to the breakdown of each fuel type over the years 2001-2023.</p>
       </div>
+
       <div id="vis2" class="vis-container" style="grid-area: vis2;"></div>
       <div id="vis3" class="vis-container" style="grid-area: vis3;"></div>
-      <div id="text3" class="text-container" style="grid-area: text3;">
-        <p>Sectors using fuel and its import/export.</p>
-      </div>
-    </div>
+      <div id="vis4" class="vis-container"></div>
+   
 
     <div class="info-box">Sectors using fuel and its import/export</div>
 
     <div class="pure-g">
-      <div id="vis4" class="vis-container"></div>
       <div id="vis5" class="vis-container"></div>
       <div id="vis6" class="vis-container"></div> 
     </div>
