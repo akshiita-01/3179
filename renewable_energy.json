@@ -1,64 +1,143 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Australian State Renewable Energy Consumption 2022-2023",
-    "width": 470,
-    "height": 300,
-    "projection": {"type": "equalEarth"},
-    
-    "layer": [
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/ne_10m%20(3).json",
-          "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
-        },
-        "transform": [
-          {
-            "lookup": "properties.name",  
-            "from": {
-              "data": {
-                "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/3179mapdata(staterenewable).csv",
-                "format": {"type": "csv"}
-              },
-              "key": "State",  
-              "fields": ["Renewable Energy %"]
-            }
-          }
-        ],
-        "mark": {"type": "geoshape"},
-        "encoding": {
-          "color": {
-            "field": "Renewable Energy %",
-            "type": "quantitative",
-            "scale": {
-              "domain": [0, 44.1],  
-              "range": ["#f7fcf0", "#00441b"]
-            }
-          },
-          "tooltip": [
-            {"field": "properties.name", "type": "nominal", "title": "State"},
-            {"field": "Renewable Energy %", "type": "quantitative"}
-          ]
-        }
-      },
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/centroid.csv",
-          "format": {"type": "csv"}
-        },
-        "mark": {
-          "type": "text",
-          "dy": -10,  
-          "fontSize": 10,
-          "fontWeight": "bold",
-          "color": "black"
-        },
-        "encoding": {
-          "longitude": {"field": "Longitude", "type": "quantitative"},
-          "latitude": {"field": "Latitude", "type": "quantitative"},
-          "text": {"field": "State", "type": "nominal"}
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australian State Renewable Energy Consumption 2022-2023",
+  "width": 470,
+  "height": 500,
+  "params": [
+    {
+      "name": "zoom",
+      "value": 560,
+      "bind": {
+        "input": "range",
+        "min": 560,
+        "max": 5000,
+        "step": 5,
+        "name": "Zoom Level"
       }
-    ]
-  }
-  
-  
+    },
+    {
+      "name": "cLng",
+      "value": 135,
+      "bind": {
+        "input": "range",
+        "min": 115,
+        "max": 150,
+        "name": "Pan Left/Right"
+      }
+    },
+    {
+      "name": "cLat",
+      "value": -25,
+      "bind": {
+        "input": "range",
+        "min": -45,
+        "max": -12,
+        "name": "Pan Up/Down",
+        "orient": "vertical"
+      }
+    }
+  ],
+  "projection": {
+    "type": "equalEarth",
+    "scale": {"signal": "zoom"},
+    "center": {"signal": "[cLng, cLat]"}
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/ne_10m%20(3).json",
+        "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/3179mapdata(staterenewable).csv",
+              "format": {"type": "csv"}
+            },
+            "key": "State",
+            "fields": ["Renewable Energy %"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Renewable Energy %",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 44.1],
+            "range": ["#f7fcf0", "seagreen"]
+          }
+        },
+        "tooltip": [
+          {"field": "properties.name", "type": "nominal", "title": "State"},
+          {"field": "Renewable Energy %", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/Plants.csv",
+        "format": {"type": "csv"}
+      },
+      "mark": {
+        "type": "circle",
+        "tooltip": true,
+        "size": 50
+      },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "color": {
+          "field": "Fuel Type",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Solar - Solar",
+              "Wind - Wind",
+              "Fossil",
+              "Other - Other",
+              "Renewable Biomass or Waste",
+              "Hydro - Water",
+              "Natural Gas"
+            ],
+            "range": [
+              "#FF7F7F",  
+              "#87CEFA",  
+              "#876E4B",  
+              "#A9A9A9",  
+              "darkgreen",  
+              "blue",  
+              "purple"   
+            ]
+          }
+        },
+        "tooltip": [
+          {"field": "Site Name", "type": "nominal", "title": "Site"},
+          {"field": "Asset Type", "type": "nominal", "title": "Asset Type"},
+          {"field": "Fuel Type", "type": "nominal", "title": "Fuel Type"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/centroid.csv",
+        "format": {"type": "csv"}
+      },
+      "mark": {
+        "type": "text",
+        "dy": -10,
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "color": "black"
+      },
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "text": {"field": "State", "type": "nominal"}
+      }
+    }
+  ]
+}
