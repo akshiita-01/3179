@@ -18,8 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- CSS --> 
-
+  <!-- CSS -->
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
@@ -30,15 +29,25 @@
     }
 
     .description {
-      text-align: center;
+      text-align: left;
       margin-bottom: 20px;
       font-size: 18px;
       color: #666;
+      line-height: 1.5;
+    }
+
+    .big-text {
+      font-size: 24px;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin: 20px 0;
+      background-color: #f9f9f9;
     }
 
     .vis-container {
       height: 500px;
-      width: 100%; /* Equal width for both visualizations */
+      width: 100%;
     }
 
     .pure-u-1-2 {
@@ -47,76 +56,93 @@
       align-items: center;
     }
 
-    #vis1, #vis2 {
+    #vis1,
+    #vis2,
+    #vis3,
+    #vis4,
+    #vis5,
+    #vis6 {
       width: 100%;
-      height: 100%; /* Equal height for both visualizations */
+      height: 100%;
     }
   </style>
 
-
-
-
-
 </head>
 
-<body style = "background-color: #def4c4;">
+<body style="background-color: #def4c4;">
 
   <div class="page">
 
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-1" style = "margin-top: auto; ">
-        <h1>Renewable Energy Statistics Australia </h1>
+      <div class="pure-u-1-1" style="margin-top: auto;">
+        <h1>Renewable Energy Statistics Australia</h1>
         <p class="description">A visual analysis of Australia's renewable energy usage by state and fuel type.</p>
-        <p class="description" font-size = "15px" text-align = "center" > Please use the drop down menus and click on the legends to interact 
-          with the graphs and find out more about how energy is produced and 
-          used in Australia and its states over the years! 
+        <p class="description" style="font-size: 15px; text-align: center;">
+          Please use the drop down menus and click on the legends to interact
+          with the graphs and find out more about how energy is produced and
+          used in Australia and its states over the years!
         </p>
       </div>
     </div>
     <!-- end pure grid group -->
 
-    <!-- pure grid group -->
-    <div class="pure-g"> 
+    <!-- Map and Description -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <p class="description" style="font-size: 18px; margin: 20px;">
+          Renewable energy consumption by the different states. The colours 
+          show locations of different plants.
+        </p>
+      </div>
       <div class="pure-u-1-2">
         <div id="vis1" class="vis-container"></div>
       </div>
-<div class="pure-u-1-2">
-  <div id="vis2" class="vis-container" ></div>
-</div>
-</div>
-    <!-- end pure grid group -->
+    </div>
 
-<!-- Add the third visualization here -->
-<div class="pure-g">
-  <div class="pure-u-1-2">
-    <div id="vis3" class="vis-container"></div>
-    <p class="description" style = "margin-right: auto;">Now that you know how Australian states perform, please interact to see how Australia as a whole generates and uses renewable energy </p>
-  </div>
-</div>
-<div class="pure-u-1-2">
-  <div id="vis4" class="vis-container"></div> 
-</div>
-</div>
+    <!-- Section with breakdown text -->
+    <div class="big-text">
+      Now we will move on to the break down of each fuel type over the years 2001-2023
+    </div>
 
-<div class="pure-g">
-  <div class="pure-u-1-1">
-    <div id="vis5" class="vis-container"></div>
-    <p class="description" style = "margin-right: auto;">New added charts </p>
-  </div>
-</div>
-<div class="pure-u-1-2">
-  <div id="vis6" class="vis-container"></div> 
-</div>
-</div>
-<!-- end pure grid group -->
-
+    <!-- Line Graph and Bubble Plot -->
     <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
-        <p>This visualisation is created by Akshita Mediratta.</p>
+      <div class="pure-u-1-2">
+        <div id="vis3" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis2" class="vis-container"></div>
       </div>
     </div>
 
+    <!-- Heatmap -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis4" class="vis-container"></div>
+      </div>
+    </div>
+
+    <!-- Sector and Import/Export Section -->
+    <div class="big-text" style="margin-top: 20px;">
+      Sectors using fuel and its import/export
+    </div>
+
+    <!-- Import and Export Visualizations -->
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div id="vis5" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-2">
+        <div id="vis6" class="vis-container"></div>
+      </div>
+    </div>
+
+    <!-- End page description -->
+    <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <p>This visualization is created by Akshita Mediratta.</p>
+      </div>
+    </div>
 
   </div> <!-- end page -->
 
@@ -126,27 +152,14 @@
     var specVis3 = "./Australian_energyprod.json";
     var specVis4 = "./Electricitygen.json";
     var specVis5 = "./importexport.json";
-    var specVis6 = "./Sectorenergy.json"
+    var specVis6 = "./Sectorenergy.json";
 
     vegaEmbed('#vis1', specVis1, { "actions": false });
-
-    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
-      // Access the Vega view instance for the heatmap
-    }).catch(console.error);
-    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
-      // Access the Vega view instance for the heatmap
-    }).catch(console.error);
-    vegaEmbed('#vis6', specVis6, { "actions": false }).then(function (result) {
-      // Access the Vega view instance for the heatmap
-    }).catch(console.error);
-
-    
+    vegaEmbed('#vis2', specVis2, { "actions": false }).catch(console.error);
+    vegaEmbed('#vis3', specVis3, { "actions": false }).catch(console.error);
+    vegaEmbed('#vis4', specVis4, { "actions": false }).catch(console.error);
+    vegaEmbed('#vis5', specVis5, { "actions": false }).catch(console.error);
+    vegaEmbed('#vis6', specVis6, { "actions": false }).catch(console.error);
   </script>
 </body>
 
