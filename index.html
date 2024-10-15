@@ -89,13 +89,24 @@
 
 <!-- Add the third visualization here -->
 <div class="pure-g">
-  <div class="pure-u-1-1">
+  <div class="pure-u-1-2">
     <div id="vis3" class="vis-container"></div>
     <p class="description" style = "margin-right: auto;">Now that you know how Australian states perform, please interact to see how Australia as a whole generates and uses renewable energy </p>
   </div>
 </div>
 <div class="pure-u-1-2">
   <div id="vis4" class="vis-container"></div> 
+</div>
+</div>
+
+<div class="pure-g">
+  <div class="pure-u-1-2">
+    <div id="vis5" class="vis-container"></div>
+    <p class="description" style = "margin-right: auto;">New added charts </p>
+  </div>
+</div>
+<div class="pure-u-1-2">
+  <div id="vis6" class="vis-container"></div> 
 </div>
 </div>
 <!-- end pure grid group -->
@@ -114,6 +125,8 @@
     var specVis2 = "./state_energy_distribution.json";
     var specVis3 = "./Australian_energyprod.json";
     var specVis4 = "./Electricitygen.json";
+    var specVis5 = "/importexport.json";
+    var specVis6 = "/Sectorenergy.json"
 
     vegaEmbed('#vis1', specVis1, { "actions": false });
 
@@ -124,6 +137,12 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
     vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
+      // Access the Vega view instance for the heatmap
+    }).catch(console.error);
+    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance for the heatmap
+    }).catch(console.error);
+    vegaEmbed('#vis6', specVis6, { "actions": false }).then(function (result) {
       // Access the Vega view instance for the heatmap
     }).catch(console.error);
 
