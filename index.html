@@ -6,8 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,38 +26,45 @@
       text-align: left;
       margin-bottom: 20px;
       font-size: 18px;
-      color: black;
+      color: black; /* Changed to black */
     }
 
-    .vis-container {
-      height: 400px; /* Adjust height as needed */
-      width: 100%;
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      grid-template-rows: auto auto auto; /* Three rows */
+      grid-template-areas:
+        "vis1 text1"
+        "text2 vis2"
+        "vis3 text3";
+      grid-gap: 40px; /* Space between grid items */
+      width: 95%;
+      justify-items: center; /* Center items horizontally */
+      align-items: center; /* Center items vertically */
+      margin: 20px auto; /* Center grid on page */
     }
 
-    .pure-g {
-      margin-bottom: 20px; /* Space between rows */
+    #vis1, #vis2, #vis3, #vis4, #vis5, #vis6 {
+      width: 90%;
+      height: 400px; /* Set height for visualizations */
     }
 
-    #vis1,
-    #vis2,
-    #vis3,
-    #vis4,
-    #vis5,
-    #vis6 {
-      width: 100%;
-      height: 100%;
+    #text1, #text2, #text3 {
+      display: block;
+      width: 55%; /* Set width for text containers */
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .info-box {
-      background-color: darkgreen;
-      color: white;
+      background-color: darkgreen; /* Dark green background */
+      color: white; /* White text for contrast */
       padding: 15px;
       text-align: center;
       font-weight: bold;
       text-decoration: underline;
-      font-family: Arial, sans-serif;
-      margin: 20px 0;
-      font-size: 20px; /* Increase font size */
+      font-family: Arial, sans-serif; /* Change to sans-serif font */
+      margin: 20px 0; /* Margin for spacing */
     }
 
     .final-text {
@@ -72,69 +78,52 @@
 <body>
 
   <div class="page">
-
     <div class="pure-g">
-      <div class="pure-u-1-1">
+      <div class="pure-u-1-1" style="margin-top: auto;">
         <h1>Renewable Energy Statistics Australia</h1>
         <p class="description">A visual analysis of Australia's renewable energy usage by state and fuel type.</p>
-        <p class="description">
-          Renewable energy consumption by the different states. The colours show locations of different plants. 
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div id="vis1" class="vis-container" style="grid-area: vis1;"></div>
+      <div id="text1" class="text-container" style="grid-area: text1;">
+        <p>Renewable energy consumption by the different states. The colours show locations of different plants. 
           To interact with the map, use the sliders below it to:
           <br> - Zoom in/out of the map
           <br> - Pan left/right
           <br> - Pan up/down
         </p>
       </div>
-    </div>
-
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div id="vis1" class="vis-container"></div>
+      <div id="text2" class="text-container" style="grid-area: text2;">
+        <p>Now we will move on to the breakdown of each fuel type over the years 2001-2023.</p>
       </div>
-      <div class="pure-u-1-2">
-        <div id="vis2" class="vis-container"></div>
-      </div>
-    </div>
-
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="info-box">Now we will move on to the breakdown of each fuel type over the years 2001-2023</div>
+      <div id="vis2" class="vis-container" style="grid-area: vis2;"></div>
+      <div id="vis3" class="vis-container" style="grid-area: vis3;"></div>
+      <div id="text3" class="text-container" style="grid-area: text3;">
+        <p>Sectors using fuel and its import/export.</p>
       </div>
     </div>
 
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div id="vis3" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-2">
-        <div id="vis4" class="vis-container"></div>
-      </div>
-    </div>
+    <div class="info-box">Sectors using fuel and its import/export</div>
 
     <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="info-box">Sectors using fuel and its import/export</div>
-      </div>
-    </div>
-
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div id="vis5" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-2">
-        <div id="vis6" class="vis-container"></div>
-      </div>
+      <div id="vis4" class="vis-container"></div>
+      <div id="vis5" class="vis-container"></div>
+      <div id="vis6" class="vis-container"></div> 
     </div>
 
     <div class="final-text">
-      <p>Thank you for exploring Australia's renewable energy statistics!</p>
+      <p>As you can see, Tasmania stands out in terms of renewable energy usage, mostly hydro (water), while the Northern Territory has low renewable energy consumption and high non-renewable energy production. Refined products are imported the most due to a lack of domestic production, and coal is exported the most because of the extensive number of coal plants.</p>
     </div>
 
-    <div class="final-text">
-      <p>This visualization is created by Akshita Mediratta.</p>
+    <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <p>This visualisation is created by Akshita Mediratta.</p>
+      </div>
     </div>
 
-  </div> <!-- end page -->
+  </div>
 
   <script type="text/javascript">
     var specVis1 = "./renewable_energy.json";
