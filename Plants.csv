@@ -1,0 +1,964 @@
+﻿Region,Asset Type,Site Name,Fuel Type,latitude,longitude
+NSW1,Existing Plant,133 Castlereagh St,Fossil,-33.87,151.21
+VIC1,Existing Plant,990 Latrobe St,Fossil,-37.81,144.95
+SA1,Existing Plant,Adelaide Airport,Solar - Solar,-34.94,138.53
+SA1,Existing Plant,Adelaide Desalination Plant,Solar - Solar,-35.09663569,138.4816415
+SA1,Existing Plant,Adelaide Zoo Solar System,Solar - Solar,-34.91,138.61
+VIC1,Existing Plant,Aeroten Leongatha Solar,Solar - Solar,-38.1,145.17
+NSW1,Existing Plant,Albury Renewable Energy Facility,Renewable Biomass or Waste,-36.07,146.93
+QLD1,Existing Plant,Aldi Brendale,Solar - Solar,-27.31,152.97
+SA1,Existing Plant,Angaston,Fossil,-34.50322738,139.0244612
+NSW1,Existing Plant,Appin,Fossil,-34.21007559,150.7927799
+VIC1,Existing Plant,Ararat Wind Farm,Wind - Wind,-37.26276539,143.078424
+NSW1,Existing Plant,Avonlie Solar Farm,Solar - Solar,-34.91984708,146.6097561
+NSW1,Existing Plant,Awaba,Other - Other,-33.02545456,151.5536928
+VIC1,Existing Plant,Bairnsdale,Fossil,-37.84288705,147.5640478
+NSW1,Existing Plant,Bakers Maison,Solar - Solar,-33.94,151.01
+QLD1,Existing Plant,Baking Board Solar Farm Chinchilla,Solar - Solar,-26.72,150.55
+VIC1,Existing Plant,Bald Hills Wind Farm,Wind - Wind,-38.74768802,145.9502859
+VIC1,Existing Plant,Ballarat,Renewable Biomass or Waste,-37.56678468,143.813761
+VIC1,Existing Plant,Ballarat Base Hospital Plant,Fossil,-37.55875386,143.847236
+VIC1,Existing Plant,Ballarat Energy Storage System,Other - Other,-37.56765301,143.9198337
+NSW1,Existing Plant,Bango 973 Wind Farm,Wind - Wind,-34.55759049,148.7964384
+NSW1,Existing Plant,Bango 999 Wind Farm,Wind - Wind,-34.56084329,148.8721625
+VIC1,Existing Plant,Banimboola,Hydro - Water,-36.53360684,147.4603408
+NSW1,Existing Plant,Bankstown Sports Club,Fossil,-33.91977393,151.0338091
+VIC1,Existing Plant,Bannerton Solar Park,Solar - Solar,-34.6911712,142.7666241
+QLD1,Existing Plant,Barcaldine Power Station,Fossil,-23.55241171,145.3145086
+QLD1,Existing Plant,Barcaldine Remote Community Solar Farm,Solar - Solar,-23.54665407,145.3189743
+SA1,Existing Plant,Barker Inlet Power Station,Fossil,-34.80423725,138.5248421
+QLD1,Existing Plant,Barron Gorge,Hydro - Water,-16.85120879,145.6469204
+TAS1,Existing Plant,Bastyan,Hydro - Water,-41.73616838,145.5321854
+NSW1,Existing Plant,Bayswater,Fossil,-32.39284666,150.9490013
+VIC1,Existing Plant,Bayswood Timber Hallam VIC,Solar - Solar,-38.01601822,145.2632341
+VIC1,Existing Plant,Beaconhills College Berwick,Solar - Solar,-38.05,145.36
+TAS1,Existing Plant,Bell Bay Three,Fossil,-41.1399398,146.9056284
+VIC1,Existing Plant,Bendigo,Renewable Biomass or Waste,-36.76,144.28
+VIC1,Existing Plant,Berrybank Wind Farm,Wind - Wind,-37.98284158,143.4752707
+NSW1,Existing Plant,Beryl Solar Farm,Solar - Solar,-32.35750525,149.4680333
+SA1,Existing Plant,BHP Olympic Dam Backup Generation,Fossil,-30.45,136.87
+NSW1,Existing Plant,Blayney,Wind - Wind,-33.53,149.26
+NSW1,Existing Plant,Blowering,Hydro - Water,-35.39872187,148.2464095
+SA1,Existing Plant,Blue Lake Milling Power Plant,Fossil,-36.31626748,140.7578642
+QLD1,Existing Plant,Bluegrass Solar Farm,Solar - Solar,-26.68449117,150.5069519
+NSW1,Existing Plant,Boco Rock Wind Farm,Wind - Wind,-36.57699965,149.1272265
+NSW1,Existing Plant,Bodangora Wind Farm,Wind - Wind,-32.40689277,149.04133
+VIC1,Existing Plant,Bogong / Mackay,Hydro - Water,-36.85874553,147.234327
+SA1,Existing Plant,Bolivar Power Station,Fossil,-34.77562676,138.5797571
+SA1,Existing Plant,Bolivar Waste Water Treatment,Solar - Solar,-34.76836244,138.5885159
+NSW1,Existing Plant,Bomen Solar Farm,Solar - Solar,-35.05171091,147.4397787
+SA1,Existing Plant,Bordertown Power Station Gen,Fossil,-36.31447453,140.7580641
+VIC1,Existing Plant,Boronia Mini Hydro,Hydro - Water,-37.86,145.28
+QLD1,Existing Plant,Bouldercombe Battery project,Other - Other,-23.53676594,150.4875673
+QLD1,Existing Plant,Braemar,Fossil,-27.11127729,150.9051884
+QLD1,Existing Plant,Braemar 2 Power Station,Fossil,-27.11347661,150.9054804
+VIC1,Existing Plant,Bridgewater,Solar - Solar,-36.59,143.92
+VIC1,Existing Plant,Broadmeadows,Other - Other,-37.69,144.92
+NSW1,Existing Plant,Broadwater,Renewable Biomass or Waste,-29.01226132,153.4327511
+NSW1,Existing Plant,Broken Hill,Other - Other,-31.98636074,141.4230592
+NSW1,Existing Plant,Broken Hill GT,Fossil,-31.9862557,141.4199339
+NSW1,Existing Plant,Broken Hill Solar Plant,Solar - Solar,-31.98757869,141.3928878
+NSW1,Existing Plant,Brown Mountain Hydro Power Station,Hydro - Water,-36.60992005,149.4800599
+QLD1,Existing Plant,Browns Plains,Other - Other,-27.6744183,153.0690572
+VIC1,Existing Plant,Bulgana Green Power Hub - BESS,Other - Other,-37.03901768,142.9827652
+VIC1,Existing Plant,Bulgana Green Power Hub - Wind Farm,Wind - Wind,-37.05198837,142.9831795
+SA1,Existing Plant,Bungala One Solar Farm,Solar - Solar,-32.42286102,137.8415641
+SA1,Existing Plant,Bungala Two Solar Farm,Solar - Solar,-32.40760538,137.8418163
+VIC1,Existing Plant,Bunurong 260 kW Solar PV Bangholme,Solar - Solar,-38.07,145.2
+NSW1,Existing Plant,Burrendong,Hydro - Water,-32.66463903,149.1078944
+NSW1,Existing Plant,Burrinjuck,Hydro - Water,-35.0010908,148.5825437
+TAS1,Existing Plant,Butlers Gorge,Hydro - Water,-42.28,146.33
+QLD1,Existing Plant,Callide B,Fossil,-24.3491746,150.6183193
+QLD1,Existing Plant,Callide C,Fossil,-24.34458376,150.6205991
+QLD1,Existing Plant,Caloundra Renewable Energy Facility,Renewable Biomass or Waste,-26.78747411,153.0705565
+SA1,Existing Plant,Canunda,Wind - Wind,-37.81058374,140.418702
+NSW1,Existing Plant,Capital East Solar Farm P1,Solar - Solar,-35.18051314,149.5461793
+NSW1,Existing Plant,Capital Wind Farm,Wind - Wind,-35.18781331,149.5240636
+VIC1,Existing Plant,Cardinia Creek Mini-Hydro,Hydro - Water,-37.97,145.39
+VIC1,Existing Plant,CARINA WEST H2E,Renewable Biomass or Waste,-34.68,142.75
+TAS1,Existing Plant,Catagunya / Liapootah / Wayatinah,Hydro - Water,-42.45214529,146.5976307
+SA1,Existing Plant,Cathedral Rocks,Wind - Wind,-34.86503297,135.593156
+TAS1,Existing Plant,Cattle Hill Wind Farm,Wind - Wind,-42.15842429,146.7127454
+VIC1,Existing Plant,Cedar Meats Solar Geelong,Solar - Solar,-37.82,144.84
+TAS1,Existing Plant,Cethana,Hydro - Water,-41.48017149,146.1339355
+VIC1,Existing Plant,Challicum Hills,Wind - Wind,-37.38790295,143.0768055
+VIC1,Existing Plant,Chepstowe Wind Farm - VIC,Wind - Wind,-37.59484976,143.4959278
+VIC1,Existing Plant,Cherry Tree Wind Farm,Wind - Wind,-37.10036482,145.2675024
+QLD1,Existing Plant,Childers Solar Farm,Solar - Solar,-25.3055894,152.4035582
+NSW1,Existing Plant,Chillamurra,Solar - Solar,-30.64,151.5
+QLD1,Existing Plant,Chillamurra Solar Farm,Solar - Solar,-26.11023155,152.4336204
+QLD1,Existing Plant,Chinchilla BESS,Other - Other,-26.91422233,150.748204
+SA1,Existing Plant,Christies Beach Wastewater Treatment Plant,Other - Other,-35.12588471,138.4735195
+QLD1,Existing Plant,Churchill Abattoir,Solar - Solar,-27.65,152.74
+QLD1,Existing Plant,Clare Solar Farm,Solar - Solar,-19.84103824,147.2058626
+VIC1,Existing Plant,Clayton,Renewable Biomass or Waste,-37.95026097,145.1187544
+SA1,Existing Plant,Clements Gap Wind Farm,Wind - Wind,-33.48094919,138.0988321
+QLD1,Existing Plant,Clermont Solar Farm,Solar - Solar,-22.83941206,147.5810409
+VIC1,Existing Plant,Clover,Hydro - Water,-36.78532716,147.2204662
+NSW1,Existing Plant,Club Merrylands,Fossil,-33.84,150.99
+TAS1,Existing Plant,Cluny,Hydro - Water,-42.50742332,146.6464579
+VIC1,Existing Plant,Codrington Wind Farm,Wind - Wind,-38.27302508,141.9730801
+VIC1,Existing Plant,Cohuna Solar Farm,Solar - Solar,-35.88243469,144.2179292
+NSW1,Existing Plant,Coleambally Solar Farm,Solar - Solar,-34.76143376,145.9244437
+NSW1,Existing Plant,Collector,Wind - Wind,-34.84060037,149.383936
+QLD1,Existing Plant,Collinsville PV,Solar - Solar,-20.54596587,147.8103027
+NSW1,Existing Plant,Colongra,Fossil,-33.20963176,151.544018
+QLD1,Existing Plant,Columboola Solar Farm,Solar - Solar,-26.63549943,150.2991827
+QLD1,Existing Plant,Condamine A,Fossil,-26.66909265,150.2691519
+NSW1,Existing Plant,Condong,Renewable Biomass or Waste,-28.31457725,153.4338071
+VIC1,Existing Plant,Coonooer Bridge Wind Farm,Wind - Wind,-36.43689301,143.3615316
+SA1,Existing Plant,Coopers Co-gen,Fossil,-34.77,139.06
+QLD1,Existing Plant,Coopers Gap Wind Farm,Wind - Wind,-26.74813071,151.4593469
+NSW1,Existing Plant,Copeton,Hydro - Water,-29.91009316,150.9235158
+TAS1,Existing Plant,Copping Renewable Energy Facility,Renewable Biomass or Waste,-42.82695496,147.7720442
+VIC1,Existing Plant,Corio,Renewable Biomass or Waste,-38.05875336,144.4055392
+NSW1,Existing Plant,Corowa Solar Farm,Solar - Solar,-35.97888043,146.3589812
+NSW1,Existing Plant,Crookwell,Wind - Wind,-34.54117279,149.5954549
+NSW1,Existing Plant,Crookwell 2 Wind Farm,Wind - Wind,-34.54411927,149.5867015
+VIC1,Existing Plant,Crowlands Wind Farm,Wind - Wind,-37.12641385,143.1559722
+VIC1,Existing Plant,Crown Melbourne,Fossil,-37.82408307,144.9569346
+NSW1,Existing Plant,Crudine Ridge Wind Farm,Wind - Wind,-32.89947153,149.6483843
+NSW1,Existing Plant,Cullerin Range Wind Farm,Wind - Wind,-34.81807622,149.3991615
+SA1,Existing Plant,Dalrymple BESS,Other - Other,-34.93390436,137.7435669
+QLD1,Existing Plant,Darling Downs,Fossil,-27.11605404,150.8947828
+QLD1,Existing Plant,Darling Downs Solar Farm,Solar - Solar,-27.11458502,150.8762272
+NSW1,Existing Plant,Darlington Point Energy Storage System,Other - Other,-34.56667761,145.9997329
+NSW1,Existing Plant,Darlington Point Solar Farm,Solar - Solar,-34.647962,146.0585378
+VIC1,Existing Plant,Dartmouth,Hydro - Water,-36.5563444,147.5203881
+QLD1,Existing Plant,Daydream Solar Farm,Solar - Solar,-20.48554277,147.7707843
+NSW1,Existing Plant,De Bortoli Wines,Solar - Solar,-34.28,146.14
+TAS1,Existing Plant,Devils Gate,Hydro - Water,-41.35002115,146.2648198
+NSW1,Existing Plant,DHL6 Solar Horsley Park,Solar - Solar,-33.84,150.85
+VIC1,Existing Plant,Diapur Wind Farm,Wind - Wind,-36.34,141.45
+NSW1,Existing Plant,Drayton's Family Wines Solar,Solar - Solar,-32.80901079,151.2821159
+SA1,Existing Plant,Dry Creek GT,Fossil,-34.84745744,138.581723
+VIC1,Existing Plant,Drysdale,Renewable Biomass or Waste,-38.17107714,144.627401
+QLD1,Existing Plant,Dulacca Wind Farm,Wind - Wind,-26.62976365,149.86894
+QLD1,Existing Plant,Dunblane Solar Farm,Solar - Solar,-23.54467204,145.2656881
+VIC1,Existing Plant,Dundonnell Wind Farm,Wind - Wind,-37.86517036,142.9683485
+NSW1,Existing Plant,Earthpower Technologies Sydney,Other - Other,-33.82,151.04
+NSW1,Existing Plant,Eastern Creek,Renewable Biomass or Waste,-33.79635256,150.8245405
+NSW1,Existing Plant,Eastern Creek 2 Gas Utilisation Facility,Renewable Biomass or Waste,-33.79835716,150.8236724
+QLD1,Existing Plant,Edenvale Solar Park,Solar - Solar,-26.93045229,150.5821221
+VIC1,Existing Plant,Eildon,Hydro - Water,-37.22167509,145.9209582
+VIC1,Existing Plant,Eildon Pondage Power Station (EPPS),Hydro - Water,-37.24302034,145.8974692
+VIC1,Existing Plant,Elaine Wind Farm,Wind - Wind,-37.73295302,144.0115798
+QLD1,Existing Plant,Emerald Solar Park,Solar - Solar,-23.50814685,148.1277771
+VIC1,Existing Plant,Epworth Hospital - East Melbourne - Freemasons,Fossil,-37.81,144.98
+VIC1,Existing Plant,Epworth Hospital - Geelong - Waurn Ponds,Fossil,-38.19,144.3
+NSW1,Existing Plant,Eraring,Fossil,-33.05998167,151.5196621
+NSW1,Existing Plant,Eraring GT,Fossil,-33.06249191,151.5181719
+VIC1,Existing Plant,Ferguson Wind Farm,Wind - Wind,-38.611208,143.1795759
+NSW1,Existing Plant,Finley Solar Farm,Solar - Solar,-35.64432165,145.5080041
+TAS1,Existing Plant,Fisher,Hydro - Water,-41.67324433,146.2686905
+VIC1,Existing Plant,Flavorite Marketing,Solar - Solar,-37.78083274,144.7508463
+NSW1,Existing Plant,Flyers Creek Wind Farm,Wind - Wind,-33.51768702,149.0517935
+QLD1,Existing Plant,FPC Green Energy,Renewable Biomass or Waste,-27.74,153.33
+QLD1,Existing Plant,Fraser Coast Community Solar Farm,Solar - Solar,-25.41,152.75
+QLD1,Existing Plant,Gangarri Solar Farm,Solar - Solar,-26.25745264,149.7621023
+VIC1,Existing Plant,Gannawarra Energy Storage System,Other - Other,-35.73425191,143.7801472
+VIC1,Existing Plant,Gannawarra Solar Farm,Solar - Solar,-35.72863766,143.7832116
+QLD1,Existing Plant,German Creek,Fossil,-22.91067695,148.5638788
+QLD1,Existing Plant,Gladstone,Fossil,-23.84857519,151.2185978
+NSW1,Existing Plant,Glenbawn,Hydro - Water,-32.11,150.99
+VIC1,Existing Plant,Glenmaggie Hydro,Hydro - Water,-37.90441865,146.8001982
+NSW1,Existing Plant,Glennies Creek,Fossil,-32.46,151.11
+TAS1,Existing Plant,Glenorchy,Renewable Biomass or Waste,-42.83,147.27
+TAS1,Existing Plant,Glenorchy Renewable Energy Facility,Renewable Biomass or Waste,-42.84183104,147.2548393
+VIC1,Existing Plant,Glenrowan Solar Farm,Solar - Solar,-36.47235852,146.2016377
+VIC1,Existing Plant,Glenrowan West Solar Farm,Solar - Solar,-36.48852221,146.1536122
+NSW1,Existing Plant,Goonumbla Solar Farm,Solar - Solar,-33.10569763,148.1039521
+TAS1,Existing Plant,Gordon,Hydro - Water,-42.74045168,145.9828546
+NSW1,Existing Plant,Goulburn Bioenergy,Renewable Biomass or Waste,-34.78661422,149.6830343
+NSW1,Existing Plant,Grange Avenue,Renewable Biomass or Waste,-33.70291387,150.8313203
+TAS1,Existing Plant,Granville Harbour Wind Farm,Wind - Wind,-41.78661058,145.047441
+NSW1,Existing Plant,Griffith Solar Farm,Solar - Solar,-34.31753287,146.1193378
+QLD1,Existing Plant,Grosvenor 1,Fossil,-25.43,151.18
+NSW1,Existing Plant,Gullen Range Solar Farm,Solar - Solar,-34.6097438,149.4757223
+NSW1,Existing Plant,Gullen Range Wind Farm,Wind - Wind,-34.61465682,149.4630453
+NSW1,Existing Plant,Gullen Range Wind Farm 2,Wind - Wind,-34.61514649,149.4598378
+NSW1,Existing Plant,Gunnedah Solar Farm,Solar - Solar,-30.9416777,150.3492876
+NSW1,Existing Plant,Gunning Wind Farm,Wind - Wind,-34.69704654,149.3845838
+NSW1,Existing Plant,Guthega,Hydro - Water,-36.34999609,148.4136147
+VIC1,Existing Plant,Hallam Road,Renewable Biomass or Waste,-38.05356425,145.2675618
+SA1,Existing Plant,Hallett 4 North Brown Hill,Wind - Wind,-33.30186004,138.7068903
+SA1,Existing Plant,Hallett 5 The Bluff WF,Wind - Wind,-33.36456337,138.8054598
+SA1,Existing Plant,Hallett GT,Fossil,-33.35202326,138.7534505
+SA1,Existing Plant,Hallett Stage 1 Brown Hill,Wind - Wind,-33.40804338,138.7262177
+SA1,Existing Plant,Hallett Stage 2 Hallett Hill,Wind - Wind,-33.55232031,138.8620082
+QLD1,Existing Plant,Hamilton Solar Farm,Solar - Solar,-20.51053519,147.756966
+SA1,Existing Plant,Happy Valley Reservoir,Solar - Solar,-35.06487017,138.5653639
+QLD1,Existing Plant,Haughton Solar Farm Stage 1,Solar - Solar,-19.75000084,147.0483978
+QLD1,Existing Plant,Hayman Solar Farm,Solar - Solar,-20.48406789,147.7472193
+VIC1,Existing Plant,Hazelwood Battery Energy Storage System (HBESS),Other - Other,-38.26743009,146.3905322
+NSW1,Existing Plant,Hillston Sun Farm,Solar - Solar,-33.51940947,145.5230579
+TAS1,Existing Plant,Hobart,Other - Other,-42.88,147.33
+SA1,Existing Plant,Hornsdale Power Reserve Unit 1,Other - Other,-33.0864411,138.5198144
+SA1,Existing Plant,Hornsdale Wind Farm Stage 1,Wind - Wind,-33.05308502,138.548554
+SA1,Existing Plant,Hornsdale Wind Farm Stage 2,Wind - Wind,-33.06215176,138.5453836
+SA1,Existing Plant,Hornsdale Wind Farm Stage 3,Wind - Wind,-33.07424108,138.5450081
+QLD1,Existing Plant,Hughenden Sun Farm,Solar - Solar,-20.85487452,144.1865239
+NSW1,Existing Plant,Hume Dam NSW,Hydro - Water,-36.10548318,147.0329251
+VIC1,Existing Plant,Hume Dam VIC,Hydro - Water,-36.10800347,147.0295064
+NSW1,Existing Plant,Hunter EconomicZone,Fossil,-33.86,151.21
+VIC1,Existing Plant,HYMIVC06 Belgrave-Hallam Rd Micro Hydro,Hydro - Water,-37.97,145.32
+QLD1,Existing Plant,Inkerman Mill,Renewable Biomass or Waste,-19.64,147.4
+QLD1,Existing Plant,Invicta Mill,Renewable Biomass or Waste,-19.52,147.1
+QLD1,Existing Plant,ISIS Central Sugar Mill Co-generation Plant,Other - Other,-25.2,152.21
+NSW1,Existing Plant,Jacks Gully,Renewable Biomass or Waste,-34.08,150.74
+VIC1,Existing Plant,Jeeralang A,Fossil,-38.28,146.43
+NSW1,Existing Plant,Jemalong Solar,Solar - Solar,-33.38843867,147.6684282
+VIC1,Existing Plant,Jessica Way Truganina Solar,Solar - Solar,-37.82,144.74
+NSW1,Existing Plant,Jindabyne,Hydro - Water,-36.42,148.62
+VIC1,Existing Plant,JL King & Co 150kW- Solar-,Solar - Solar,-36.78,144.26
+TAS1,Existing Plant,John Butters,Hydro - Water,-42.15487234,145.5345771
+NSW1,Existing Plant,Jounama,Hydro - Water,-35.56219143,148.3053605
+NSW1,Existing Plant,Junee Solar Farm,Solar - Solar,-34.81457055,147.5718603
+QLD1,Existing Plant,Kaban Wind Farm,Wind - Wind,-17.56043426,145.4132563
+QLD1,Existing Plant,Kalamia Mill,Renewable Biomass or Waste,-19.52,147.42
+VIC1,Existing Plant,Karadoc Solar Farm,Solar - Solar,-34.41186231,142.2522743
+QLD1,Existing Plant,Kareeya,Hydro - Water,-17.76703726,145.5779202
+QLD1,Existing Plant,Kareeya 5,Hydro - Water,-17.76602939,145.5876426
+NSW1,Existing Plant,Keepit,Hydro - Water,-30.8812849,150.4910693
+QLD1,Existing Plant,Kennedy Energy Park - Phase 1 - Solar,Solar - Solar,-20.87485495,144.4208444
+QLD1,Existing Plant,Kennedy Energy Park - Phase 1 - Storage,Other - Other,-20.87388578,144.4128095
+QLD1,Existing Plant,Kennedy Energy Park - Phase 1 - Wind,Wind - Wind,-20.92900912,144.3802926
+VIC1,Existing Plant,Kiamal Solar Farm - Stage 1,Solar - Solar,-35,142.31
+VIC1,Existing Plant,Kiata Wind Farm,Wind - Wind,-36.39770452,141.7468573
+QLD1,Existing Plant,Kidston Solar Project Phase One 50MW,Solar - Solar,-18.8921519,144.1384783
+SA1,Existing Plant,Kingscote Power Station,Fossil,-34.76,138.51
+QLD1,Existing Plant,Kogan Creek,Fossil,-26.91,150.75
+SA1,Existing Plant,Ladbroke Grove,Fossil,-37.46,140.78
+SA1,Existing Plant,Lake Bonney 1 Wind Farm,Wind - Wind,-37.78704094,140.4068008
+SA1,Existing Plant,Lake Bonney 2 Wind Farm,Wind - Wind,-37.7301708,140.3807653
+SA1,Existing Plant,Lake Bonney 3 Wind Farm,Wind - Wind,-37.74140007,140.3948821
+SA1,Existing Plant,Lake Bonney Battery Energy Storage,Other - Other,-37.73899339,140.3868855
+TAS1,Existing Plant,Lake Echo,Hydro - Water,-42.16,146.65
+TAS1,Existing Plant,Lake Margaret,Hydro - Water,-42,145.54
+QLD1,Existing Plant,Lake Somerset,Hydro - Water,-27.03,152.57
+QLD1,Existing Plant,Lakeland Solar and Storage,Solar - Solar,-15.86877105,144.8619594
+VIC1,Existing Plant,Laverton North,Fossil,-37.83337858,144.7684927
+TAS1,Existing Plant,Lemonthyme / Wilmot,Hydro - Water,-41.52,146.1
+VIC1,Existing Plant,Leonards Hill,Wind - Wind,-37.42,144.12
+QLD1,Existing Plant,Lilyvale Solar Farm,Solar - Solar,-23.08451484,148.4282162
+NSW1,Existing Plant,Limondale Solar Farm 1,Solar - Solar,-34.77195341,143.5020493
+NSW1,Existing Plant,Limondale Solar Farm 2,Solar - Solar,-34.76585818,143.4929813
+SA1,Existing Plant,Lincoln Gap Wind Farm - stage 1,Wind - Wind,-32.58805069,137.5559767
+SA1,Existing Plant,Lincoln Gap Wind Farm - Stage 2,Wind - Wind,-32.57086601,137.5410057
+QLD1,Existing Plant,Llewellyn Motors,Solar - Solar,-27.61,152.8
+NSW1,Existing Plant,LMCC - Works Depot Power Station,Solar - Solar,-34.77,143.53
+VIC1,Existing Plant,Longford,Fossil,-38.17,147.09
+QLD1,Existing Plant,Longreach Solar Farm,Solar - Solar,-23.44599611,144.3591011
+SA1,Existing Plant,Lonsdale,Fossil,-35.07,138.51
+VIC1,Existing Plant,Loy Yang A Power Station,Fossil,-38.25,146.58
+VIC1,Existing Plant,Loy Yang B,Fossil,-38.26,146.58
+NSW1,Existing Plant,Lucas Heights 2,Renewable Biomass or Waste,-34.05,150.99
+VIC1,Existing Plant,Macarthur Wind Farm,Wind - Wind,-38.05,142.19
+TAS1,Existing Plant,Mackintosh,Hydro - Water,-41.7,145.67
+QLD1,Existing Plant,Macknade Mill,Renewable Biomass or Waste,-18.59,146.26
+NSW1,Existing Plant,Manildra Solar Farm,Solar - Solar,-33.22,148.62
+SA1,Existing Plant,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),Solar - Solar,-34.91639405,139.2658612
+SA1,Existing Plant,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),Solar - Solar,-34.88312843,139.0526123
+SA1,Existing Plant,Mannum Solar Farm,Solar - Solar,-34.91490147,139.2694501
+SA1,Existing Plant,Mannum Solar Farm 2,Solar - Solar,-34.91934698,139.2655463
+QLD1,Existing Plant,Maryrorough Solar Farm,Solar - Solar,-27.70280621,151.5412736
+QLD1,Existing Plant,McNamee Partners,Solar - Solar,-27.79,151.29
+TAS1,Existing Plant,McRobies Gully Renewable Energy Facility,Renewable Biomass or Waste,-42.89062407,147.2903985
+TAS1,Existing Plant,Meadowbank,Hydro - Water,-42.64,146.85
+NSW1,Existing Plant,Metz Solar Farm,Solar - Solar,-30.5412096,151.7963686
+QLD1,Existing Plant,Middlemount Solar Farm,Solar - Solar,-22.82287596,148.7180611
+VIC1,Existing Plant,Midland Highway Orrvale,Solar - Solar,-36.39,145.45
+TAS1,Existing Plant,Midlands Hydro,Hydro - Water,-41.42,147.11
+QLD1,Existing Plant,Millmerran Power Plant,Fossil,-27.96,151.28
+SA1,Existing Plant,Mintaro GT,Fossil,-33.92,138.72
+NSW1,Existing Plant,Molong Solar Farm,Solar - Solar,-33.08985971,148.9115222
+VIC1,Existing Plant,Moorabool Wind Farm,Wind - Wind,-37.73954934,144.1718192
+QLD1,Existing Plant,Moranbah Generation Project,Fossil,-21.96228606,148.0039918
+QLD1,Existing Plant,Moranbah North,Fossil,-21.88193312,147.9579639
+QLD1,Existing Plant,Moranbah Workers Solar,Solar - Solar,-22.00247606,148.0442745
+NSW1,Existing Plant,Moree Solar Farm,Solar - Solar,-29.56941435,149.8673629
+SA1,Existing Plant,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,Solar - Solar,-34.93,138.6
+SA1,Existing Plant,Morgan To Whyalla Pipeline No 2 PS,Solar - Solar,-33.7,139.48
+SA1,Existing Plant,Morgan To Whyalla Pipeline No 3 PS,Solar - Solar,-33.97,139.19
+SA1,Existing Plant,Morgan To Whyalla Pipeline No 4 PS,Solar - Solar,-33.96,139.05
+VIC1,Existing Plant,Mornington Waste Disposal Facility,Other - Other,-38.24,145.07
+VIC1,Existing Plant,Mortlake,Fossil,-38.08,142.81
+VIC1,Existing Plant,Mortlake South Wind Farm,Wind - Wind,-38.12771276,142.857066
+VIC1,Existing Plant,Mortons Lane Wind Farm,Wind - Wind,-37.83527863,142.4662926
+QLD1,Existing Plant,Mount Emerald,Wind - Wind,-36.42688042,142.2929256
+NSW1,Existing Plant,Mount Majura,Solar - Solar,-35.23627099,149.1964459
+QLD1,Existing Plant,Mount Sheridan Plaza,Solar - Solar,-16.99,145.74
+VIC1,Existing Plant,Mount Waverley Mini Hydro,Hydro - Water,-37.87,145.13
+QLD1,Existing Plant,Moura Solar Farm,Solar - Solar,-24.5138797,150.0868432
+VIC1,Existing Plant,Mt Mercer Wind Farm,Wind - Wind,-37.83185593,143.8887234
+SA1,Existing Plant,Mt Millar Wind Farm,Wind - Wind,-33.62555729,136.7040804
+NSW1,Existing Plant,Mt Piper,Fossil,-33.36003825,150.0290425
+QLD1,Existing Plant,Mt Stuart,Fossil,-19.33719767,146.8502794
+QLD1,Existing Plant,Mulgrave Central Mill,Renewable Biomass or Waste,-17.09329964,145.7888666
+VIC1,Existing Plant,Murra Warra Wind Farm - stage 1,Wind - Wind,-36.42295572,142.3022276
+VIC1,Existing Plant,Murra Warra Wind Farm - stage 2,Wind - Wind,-36.42306811,142.3472095
+VIC1,Existing Plant,Murray 1,Hydro - Water,-36.24667181,148.1902815
+VIC1,Existing Plant,Murray 2,Hydro - Water,-36.24241925,148.1364741
+SA1,Existing Plant,Murray Bridge - Onkaparinga Pipeline Pump 2,Solar - Solar,-35.0965261,139.210079
+TAS1,Existing Plant,Musselroe Wind Farm,Wind - Wind,-40.7804692,148.0100807
+NSW1,Existing Plant,Narromine Solar Farm,Solar - Solar,-32.21834959,148.2542312
+SA1,Existing Plant,NAWMA Balefill Site Uleybury,Renewable Biomass or Waste,-34.67554297,138.7291163
+NSW1,Existing Plant,Nevertire Solar Farm,Solar - Solar,-31.82249713,147.7035751
+NSW1,Existing Plant,New England Solar Farm,Solar - Solar,-30.71579673,151.5391683
+VIC1,Existing Plant,Newhaven College,Solar - Solar,-38.49,145.27
+VIC1,Existing Plant,Newport,Fossil,-37.84,144.88
+NSW1,Existing Plant,Nine Network Willoughby,Fossil,-33.81,151.2
+QLD1,Existing Plant,Normanton Solar Farm,Solar - Solar,-17.68170741,141.0497035
+VIC1,Existing Plant,Numurkah Solar Farm,Solar - Solar,-36.15904684,145.4733256
+NSW1,Existing Plant,Nyngan Solar Plant,Solar - Solar,-31.5567806,147.0838117
+QLD1,Existing Plant,Oakey 2 Solar Farm,Solar - Solar,-27.41453873,151.6577656
+QLD1,Existing Plant,Oakey Power Station,Fossil,-27.41877712,151.6804464
+QLD1,Existing Plant,Oakey Solar Farm,Solar - Solar,-27.40527121,151.6472728
+VIC1,Existing Plant,Oaklands Hill Wind Farm,Wind - Wind,-37.68160184,142.5522734
+QLD1,Existing Plant,Oaky Creek,Fossil,-28.19,152.94
+SA1,Existing Plant,Osborne,Fossil,-34.8,138.5
+TAS1,Existing Plant,Paloona,Hydro - Water,-41.28284675,146.2487099
+NSW1,Existing Plant,Parkes Shire Council STP,Solar - Solar,-33.16263573,148.193051
+NSW1,Existing Plant,Parkes Shire Council WTP,Solar - Solar,-33.16247349,148.1949581
+NSW1,Existing Plant,Parkes Solar Farm,Solar - Solar,-33.11371997,148.0762933
+SA1,Existing Plant,Pelican Point,Fossil,-34.7647301,138.5051898
+NSW1,Existing Plant,Penrith RSL Solar,Solar - Solar,-33.76,150.7
+SA1,Existing Plant,Peterborough Solar Farm,Solar - Solar,-32.97866979,138.8158344
+VIC1,Existing Plant,Philip Island BESS,Other - Other,-38.49658389,145.229421
+NSW1,Existing Plant,Pindari,Hydro - Water,-29.38925801,151.2450481
+QLD1,Existing Plant,Pioneer Sugar Mill,Renewable Biomass or Waste,-19.56,147.33
+QLD1,Existing Plant,Plane Creek Mill,Renewable Biomass or Waste,-21.43,149.21
+TAS1,Existing Plant,Poatina,Hydro - Water,-41.80602863,146.9254912
+SA1,Existing Plant,Port Augusta Renewable Energy Park - Solar,Solar - Solar,-32.56236871,137.8634221
+SA1,Existing Plant,Port Augusta Renewable Energy Park - Wind,Wind - Wind,-32.57813703,137.8625855
+SA1,Existing Plant,Port Lincoln GT,Fossil,-34.70061465,135.8039208
+SA1,Existing Plant,Port Stanvac 1,Fossil,-35.11024075,138.4915104
+VIC1,Existing Plant,Portland Wind Farm,Wind - Wind,-38.37460527,141.378713
+QLD1,Existing Plant,Proserpine,Renewable Biomass or Waste,-20.4,148.58
+NSW1,Existing Plant,Proten - Farm 60,Solar - Solar,-33.84,151.21
+VIC1,Existing Plant,Qenos Cogeneration Facility,Fossil,-37.85,144.81
+SA1,Existing Plant,Quarantine,Fossil,-32.11,133.67
+NSW1,Existing Plant,Queanbeyan BESS,Other - Other,-35.33934981,149.2160048
+QLD1,Existing Plant,Racecourse Mill,Renewable Biomass or Waste,-21.16,149.14
+SA1,Existing Plant,Redmud Green Energy 10,Solar - Solar,-34.18,140.78
+TAS1,Existing Plant,Reece,Hydro - Water,-41.72450807,145.1347793
+QLD1,Existing Plant,Reedy Creek,Renewable Biomass or Waste,-28.10872528,153.4176296
+TAS1,Existing Plant,Remount Power Station,Renewable Biomass or Waste,-41.39729717,147.1486699
+TAS1,Existing Plant,Repulse,Hydro - Water,-42.5001692,146.640184
+NSW1,Existing Plant,Revesby Workers Club,Fossil,-33.95,151.01
+VIC1,Existing Plant,REWASTE WOLLERT,Renewable Biomass or Waste,-37.61,144.98
+NSW1,Existing Plant,Riverina Energy Storage System 1,Other - Other,-34.64646552,146.0346952
+NSW1,Existing Plant,Riverina Energy Storage System 2,Other - Other,-34.64669844,146.0352676
+QLD1,Existing Plant,Rochedale B,Renewable Biomass or Waste,-27.55605059,153.1235708
+QLD1,Existing Plant,Rochedale Renewable Energy Facility,Renewable Biomass or Waste,-27.55530509,153.123236
+QLD1,Existing Plant,Rocky Point Sugar Mill Cogeneration Plant,Renewable Biomass or Waste,-27.7347383,153.3274619
+QLD1,Existing Plant,Roma,Fossil,-26.57713348,148.8402477
+QLD1,Existing Plant,Ross River Solar Farm,Solar - Solar,-19.41451041,146.7205932
+TAS1,Existing Plant,Rowallan,Hydro - Water,-41.72957526,146.2173147
+NSW1,Existing Plant,Royalla Solar Farm,Solar - Solar,-35.48978639,149.1427618
+VIC1,Existing Plant,Rubicon Mountain Streams,Hydro - Water,-37.32715567,145.8606089
+QLD1,Existing Plant,Rugby Run Solar Farm,Solar - Solar,-22.14257185,147.9290066
+NSW1,Existing Plant,Rye Park Wind Farm,Wind - Wind,-34.63333311,148.9535878
+SA1,Existing Plant,SA Aquatic & Leasure Centre,Solar - Solar,-35.01,138.54
+VIC1,Existing Plant,SALE HOSPITAL - SOLAR,Solar - Solar,-38.04,145.25
+VIC1,Existing Plant,Salt Creek Wind Farm,Wind - Wind,-37.91874021,142.7960263
+NSW1,Existing Plant,Sapphire Wind Farm,Wind - Wind,-29.69611376,151.4069604
+VIC1,Existing Plant,SCS Shepparton,Solar - Solar,-36.37,145.42
+SA1,Existing Plant,Seacliff Mini Hydro,Hydro - Water,-34.84,138.71
+SA1,Existing Plant,Seaford Renewable Energy Facility,Renewable Biomass or Waste,-35.20227305,138.5021945
+VIC1,Existing Plant,Shamic Sheetmetal,Solar - Solar,-37.82,145.29
+VIC1,Existing Plant,Shepparton,Renewable Biomass or Waste,-36.38,145.41
+VIC1,Existing Plant,Shepparton Wastewater Treatment Facility,Renewable Biomass or Waste,-36.38,145.4
+NSW1,Existing Plant,Shoalhaven,Hydro - Water,-34.73390783,150.4672415
+NSW1,Existing Plant,Silverton Wind Farm,Wind - Wind,-31.86094517,141.2963042
+QLD1,Existing Plant,SIPS Staypylton Industrial Power Station,Solar - Solar,-27.74,153.23
+NSW1,Existing Plant,Smithfield Energy Facility,Fossil,-33.84867571,150.9471752
+SA1,Existing Plant,Snapper Point Power Station,Fossil,-34.76404446,138.5067027
+SA1,Existing Plant,Snowtown S2 Wind Farm,Wind - Wind,-33.83047922,138.1185346
+SA1,Existing Plant,Snowtown Wind Farm,Wind - Wind,-33.71267576,138.1331813
+SA1,Existing Plant,Snuggery,Fossil,-37.6639172,140.4165728
+QLD1,Existing Plant,Somerset Dam,Solar - Solar,-27.02,152.56
+VIC1,Existing Plant,Somerton,Fossil,-37.63165796,144.9530284
+QLD1,Existing Plant,South Johnstone Mill,Renewable Biomass or Waste,-17.6,145.99
+NSW1,Existing Plant,South Keswick Solar Farm,Solar - Solar,-32.27236185,148.656168
+QLD1,Existing Plant,Southbank Institute of Technology Unit 1 Plant,Fossil,-27.48036671,153.0208907
+VIC1,Existing Plant,Springvale,Renewable Biomass or Waste,-37.95,145.15
+NSW1,Existing Plant,St George Leagues Club,Fossil,-33.97487844,151.1294109
+TAS1,Existing Plant,St Patrick's College Launceston,Solar - Solar,-41.47271297,147.1269153
+QLD1,Existing Plant,St Ursula's College Yeppoon,Solar - Solar,-23.13103453,150.7435739
+QLD1,Existing Plant,Stanwell,Fossil,-23.50784748,150.3206658
+QLD1,Existing Plant,Stapylton Renewable Energy Facility,Renewable Biomass or Waste,-27.75,153.26
+SA1,Existing Plant,Starfish Hill,Wind - Wind,-35.5777894,138.1297433
+NSW1,Existing Plant,Stockland Development Wetherill Park,Solar - Solar,-33.86,150.9
+VIC1,Existing Plant,Stockyard Hill Wind Farm,Wind - Wind,-37.55212928,143.3085761
+NSW1,Existing Plant,Summerhill,Renewable Biomass or Waste,-32.88927823,151.6424468
+QLD1,Existing Plant,Sun Metals Corporation Solar Farm,Solar - Solar,-19.33064131,146.8818772
+NSW1,Existing Plant,Sunraysia Solar Farm,Solar - Solar,-34.79364568,143.5136651
+QLD1,Existing Plant,Sunshine Coast Solar Farm,Solar - Solar,-26.56006598,153.0258085
+NSW1,Existing Plant,Suntop Solar Farm,Solar - Solar,-32.57980465,148.8313343
+QLD1,Existing Plant,Susan River Solar Farm,Solar - Solar,-25.42013222,152.7421925
+VIC1,Existing Plant,Swan Hill Solar Farm 1 Unit 1,Solar - Solar,-35.34164606,143.5141528
+VIC1,Existing Plant,Swan Hill Solar Farm 2 Unit 1,Solar - Solar,-35.34183932,143.5196352
+QLD1,Existing Plant,Swanbank E GT,Fossil,-27.6553873,152.8183816
+QLD1,Existing Plant,Swanbank JV,Renewable Biomass or Waste,-27.66,152.82
+VIC1,Existing Plant,Symex,Fossil,-37.83,144.94
+QLD1,Existing Plant,Tableland Mill,Other - Other,-17.11964699,145.3451632
+NSW1,Existing Plant,Tahmoor,Fossil,-34.2491567,150.5795471
+SA1,Existing Plant,Tailem Bend - Solar,Solar - Solar,-35.26572197,139.4800536
+SA1,Existing Plant,Tailem Bend Battery Project,Other - Other,-35.27054931,139.4885589
+SA1,Existing Plant,Tailem Bend Stage 2 Solar Project,Solar - Solar,-35.27606506,139.4899255
+NSW1,Existing Plant,Tallawarra,Fossil,-34.52466429,150.8068029
+NSW1,Existing Plant,Tallawarra B,Fossil,-34.52300301,150.8065099
+TAS1,Existing Plant,Tamar Valley Combined Cycle,Fossil,-41.13993712,146.9059329
+TAS1,Existing Plant,Tamar Valley Peaking,Fossil,-41.1407491,146.9055204
+NSW1,Existing Plant,Taralga Wind Farm,Wind - Wind,-34.42308252,149.8284795
+QLD1,Existing Plant,Tarong,Fossil,-26.78312065,151.916138
+QLD1,Existing Plant,Tarong GT,Fossil,-26.78,151.91
+QLD1,Existing Plant,Tarong North,Fossil,-26.77578314,151.913753
+NSW1,Existing Plant,Taronga Western Plains Zoo,Solar - Solar,-32.27,148.59
+TAS1,Existing Plant,Tarraleah,Hydro - Water,-42.30077856,146.4576287
+SA1,Existing Plant,Tatiara Meats,Fossil,-36.30639842,140.7383821
+VIC1,Existing Plant,Tatura Biomass Generator,Renewable Biomass or Waste,-36.44,145.23
+SA1,Existing Plant,Terminal Storage Mini Hydro,Hydro - Water,-34.83925301,138.7130103
+NSW1,Existing Plant,The Drop,Hydro - Water,-35.60399719,145.7837917
+QLD1,Existing Plant,Ti Tree Bioenergy,Renewable Biomass or Waste,-27.6850761,152.6614677
+VIC1,Existing Plant,Timboon West Wind Farm,Wind - Wind,-38.52907219,142.9159602
+QLD1,Existing Plant,Todae Solar - DHP 1MW,Solar - Solar,-27.85103589,151.330405
+VIC1,Existing Plant,Todae Solar – La Trobe University Bendigo,Solar - Solar,-36.78,144.3
+VIC1,Existing Plant,Todae Solar – La Trobe University Wodonga,Solar - Solar,-36.11,146.85
+VIC1,Existing Plant,Todae Solar - Nillumbik,Solar - Solar,-37.82,144.96
+NSW1,Existing Plant,Todae Solar CSU,Solar - Solar,-35.05778943,147.350934
+NSW1,Existing Plant,Todae Solar PE - Llandilo,Solar - Solar,-33.91,151.19
+QLD1,Existing Plant,Todae Solar SV - Holy Spirit Northside,Solar - Solar,-27.39070665,153.0235903
+NSW1,Existing Plant,Todae Solar SV - Mater Hospital,Solar - Solar,-33.88,151.18
+QLD1,Existing Plant,Todae Solar SV - Mitchelton,Solar - Solar,-27.41,152.97
+QLD1,Existing Plant,Todae Solar SV - Private Brisbane,Solar - Solar,-27.46,153.03
+QLD1,Existing Plant,Todae Solar SV - Toowoomba,Solar - Solar,-27.55,151.95
+QLD1,Existing Plant,Todae Solar SV Lourdes,Solar - Solar,-27.47,153.06
+TAS1,Existing Plant,Tods Corner,Hydro - Water,-41.87,146.77
+QLD1,Existing Plant,Tong Park - Agricultural Waste,Renewable Biomass or Waste,-27.2,153
+VIC1,Existing Plant,Toora,Wind - Wind,-38.65341034,146.3397373
+SA1,Existing Plant,Torrens Island B,Fossil,-34.80841301,138.5232171
+SA1,Existing Plant,Torrens Island BESS,Other - Other,-34.80237728,138.5201113
+NSW1,Existing Plant,Tower,Fossil,-34.22006452,150.7183037
+QLD1,Existing Plant,Townsville Power Station.,Fossil,-19.20158,146.6183471
+TAS1,Existing Plant,Trevallyn,Hydro - Water,-41.42249971,147.1117237
+TAS1,Existing Plant,Tribute,Hydro - Water,-41.81606813,145.6497247
+NSW1,Existing Plant,Tumut 3,Hydro - Water,-35.61120161,148.2917139
+TAS1,Existing Plant,Tungatinah,Hydro - Water,-42.2967801,146.456684
+VIC1,Existing Plant,University of Melbourne Archives Brunswick,Solar - Solar,-37.8,144.96
+VIC1,Existing Plant,University of Melbourne McCoy Carlton,Solar - Solar,-37.8,144.97
+VIC1,Existing Plant,University of Melbourne Performing Arts Centre Southbank,Solar - Solar,-37.82397876,144.9693474
+VIC1,Existing Plant,University of Melbourne Peter Hall Parkville,Solar - Solar,-37.79808981,144.9636874
+VIC1,Existing Plant,University of Melbourne Sports Centre Parkville,Solar - Solar,-37.79588877,144.9623926
+VIC1,Existing Plant,University of Melbourne The Spot Carlton,Solar - Solar,-37.80109569,144.9588518
+QLD1,Existing Plant,University of Southern Queensland Toowoomba,Solar - Solar,-27.60243232,151.9310239
+NSW1,Existing Plant,Upper Tumut,Hydro - Water,-35.90996237,148.3865379
+NSW1,Existing Plant,Uranquinty,Fossil,-35.17945712,147.2167561
+NSW1,Existing Plant,Vales Point B,Fossil,-33.1617108,151.5410009
+VIC1,Existing Plant,Valley Power,Fossil,-38.25316765,146.5895104
+QLD1,Existing Plant,Victoria Mill,Renewable Biomass or Waste,-18.65,146.19
+VIC1,Existing Plant,Victorian Big Battery,Other - Other,-38.03785096,144.2908341
+QLD1,Existing Plant,Vulcan Yatala,Solar - Solar,-27.75,153.22
+NSW1,Existing Plant,Wagga North Solar Farm,Solar - Solar,-35.06810097,147.4352355
+NSW1,Existing Plant,Wallgrove Grid Battery project,Other - Other,-33.81396549,150.8308726
+QLD1,Existing Plant,Wandoan South BESS,Other - Other,-26.26169289,149.766089
+QLD1,Existing Plant,Wandoan South Solar Stage 1,Solar - Solar,-26.25726549,149.7756574
+QLD1,Existing Plant,Wantirna Mini Hydro,Hydro - Water,-37.85140839,145.2271351
+QLD1,Existing Plant,Warwick Solar Farm,Solar - Solar,-28.18414751,152.0715164
+SA1,Existing Plant,Waterloo Wind Farm,Wind - Wind,-34.00161354,138.9107764
+SA1,Existing Plant,Wattle Point,Wind - Wind,-35.1144462,137.7218572
+VIC1,Existing Plant,Waubra,Wind - Wind,-37.39496265,143.6386252
+NSW1,Existing Plant,Wellington Solar Farm,Solar - Solar,-32.51380499,148.9611779
+VIC1,Existing Plant,Wemen Solar Farm,Solar - Solar,-34.79449428,142.537815
+NSW1,Existing Plant,West Illawarra Leagues Club,Fossil,-34.45151597,150.842918
+VIC1,Existing Plant,West Kiewa,Hydro - Water,-36.75992195,147.1854099
+NSW1,Existing Plant,West Nowra Landfill Gas Power Generation Facility,Other - Other,-34.52,150.81
+NSW1,Existing Plant,West Wyalong Solar Farm,Solar - Solar,-33.78942526,147.3191666
+QLD1,Existing Plant,Western Downs Green Power Hub P/L,Solar - Solar,-26.97165954,150.6711367
+NSW1,Existing Plant,"Western Suburbs Leagues Club - Campbelltown, NSW",Fossil,-34.05132566,150.8327019
+NSW1,Existing Plant,White Rock Solar Farm,Solar - Solar,-29.76452439,151.5536248
+NSW1,Existing Plant,White Rock Wind Farm - Stage 1,Wind - Wind,-29.76242817,151.5447342
+QLD1,Existing Plant,Whitsunday Solar Farm,Solar - Solar,-20.49485165,147.7486161
+QLD1,Existing Plant,Whitwood Road,Renewable Biomass or Waste,-27.62044919,152.8261871
+NSW1,Existing Plant,Wilga Park Power Station A,Fossil,-30.36322713,149.6767685
+NSW1,Existing Plant,Wilga Park Power Station B,Fossil,-30.36290069,149.6780508
+VIC1,Existing Plant,William Hovel,Hydro - Water,-36.91362611,146.3920022
+NSW1,Existing Plant,Williamsdale Solar Farm,Solar - Solar,-35.57,149.13
+SA1,Existing Plant,Willogoleche Wind Farm,Wind - Wind,-33.44957585,138.7974442
+QLD1,Existing Plant,Windy Hill,Wind - Wind,-17.59459525,145.5311516
+SA1,Existing Plant,Wingfield 1,Renewable Biomass or Waste,-34.82949068,138.5471141
+SA1,Existing Plant,Wingfield 2,Renewable Biomass or Waste,-34.8306821,138.5473153
+VIC1,Existing Plant,Winton Solar Farm,Solar - Solar,-36.50319671,146.1223031
+QLD1,Existing Plant,Wivenhoe,Hydro - Water,-27.37198336,152.6320084
+VIC1,Existing Plant,Wollert,Renewable Biomass or Waste,-37.61,145.03
+VIC1,Existing Plant,Wonthaggi Wind Farm,Wind - Wind,-38.60745276,145.5479825
+NSW1,Existing Plant,Woodlawn Bioreactor Energy Generation,Other - Other,-35.05877766,149.5762472
+NSW1,Existing Plant,Woodlawn Wind Farm,Wind - Wind,-35.09553093,149.5790047
+QLD1,Existing Plant,Woolcock Centre,Solar - Solar,-19.27,146.79
+TAS1,Existing Plant,Woolnorth Studland Bay / Bluff Point,Wind - Wind,-40.71886763,144.6869307
+QLD1,Existing Plant,Woolooga Solar Farm,Solar - Solar,-26.08191347,152.4443043
+NSW1,Existing Plant,Woy Woy Renewable Energy Facility,Renewable Biomass or Waste,-33.50410933,151.291117
+NSW1,Existing Plant,Wyalong Solar Farm,Solar - Solar,-33.88720151,147.3173538
+NSW1,Existing Plant,Wyangala A,Hydro - Water,-33.9804397,148.9471845
+NSW1,Existing Plant,Wyangala B,Hydro - Water,-33.96807188,148.9468335
+VIC1,Existing Plant,Wyndham Renewable Energy Facility,Renewable Biomass or Waste,-37.86,144.72
+NSW1,Existing Plant,Wyong,Renewable Biomass or Waste,-33.24,151.43
+VIC1,Existing Plant,Yallourn W,Fossil,-38.17729193,146.341797
+VIC1,Existing Plant,Yaloak South Wind Farm,Wind - Wind,-37.71684051,144.2411717
+SA1,Existing Plant,Yalumba Winery Solar system (Angaston),Solar - Solar,-34.51,139.06
+VIC1,Existing Plant,Yambuk,Wind - Wind,-38.29922567,142.0269972
+QLD1,Existing Plant,Yarranlea Solar Farm,Solar - Solar,-27.71208816,151.5268976
+VIC1,Existing Plant,Yarrawonga,Hydro - Water,-36.00939249,145.9996011
+QLD1,Existing Plant,Yarwun 1,Fossil,-23.83103444,151.1509536
+VIC1,Existing Plant,Yatpool Solar Farm,Solar - Solar,-34.39672987,142.1734125
+VIC1,Existing Plant,Yawong Wind Farm,Wind - Wind,-36.47102185,143.3617222
+VIC1,Existing Plant,Yendon Wind Farm,Wind - Wind,-37.63037047,144.0218933
+VIC1,Existing Plant,Zilzie Winery Solar System,Solar - Solar,-34.34,142.25
+NT1,Existing Plant,Berrimah Power Station,Fossil,-12.426176,130.919476
+NT1,Existing Plant,LMS Shoal Bay Landfill Power Station,Biogas,-12.389174,130.925408
+NT1,Existing Plant,Tennant Creek Power Station,Natural Gas,-19.65493,134.175285
+NT1,Existing Plant,Ron Goodin Power Station,Fossil,-23.709109,133.891175
+NT1,Existing Plant,Owen Springs Power Station,Natural Gas,-23.863611,133.825487
+NT1,Existing Plant,Brewer Power Station,Natural Gas,-23.881698,133.828143
+NT1,Existing Plant,Yulara Power Station,Fossil,-25.232313,130.991181
+NT1,Existing Plant,Pine Creek Power Station,Fossil,-13.78561,131.862362
+NT1,Existing Plant,Katherine Power Station,Fossil,-14.458693,132.244506
+NT1,Existing Plant,Weddell Power Station,Fossil,-12.577196,130.950226
+NT1,Existing Plant,Channel Island Power Station,Natural Gas,-12.554993,130.866587
+NT1,Existing Plant,Warrego Power Station,Natural Gas,-19.443393,133.823587
+NT1,Existing Plant,Kings Canyon Power Station,Natural Gas,-24.25091959,131.5006498
+NT1,Existing Plant,McArthur River Mine Power Station,Natural Gas,-16.43349825,136.0934595
+NT1,Existing Plant,Yuendumu Power Station,Natural Gas,-22.24259062,131.7931457
+NT1,Existing Plant,Lajamanu Power Station,Natural Gas,-18.32650367,130.6294897
+NT1,Existing Plant,DoubleTree by Hilton Hotel Power Station,Natural Gas,-23.71496761,133.8794539
+NT1,Existing Plant,Alice Springs Airport Power Station,Natural Gas,-23.79656983,133.8971208
+NT1,Existing Plant,Uterne Solar Power Station,Solar - Solar,-23.76851739,133.8682102
+NT1,Existing Plant,Hermannsburg Power Station,Solar - Solar,-23.93736458,132.7719282
+WA1,Existing Plant,Walkaway Wind Farm,Wind - Wind,-28.89886115,114.8685124
+WA1,Existing Plant,Esperance Wind Farm Nine Mile Beach,Wind - Wind,-33.89271,121.77778
+WA1,Existing Plant,Emu Downs Wind Farm,Wind - Wind,-30.488062,115.337005
+WA1,Existing Plant,Albany Wind Farm,Wind - Wind,-35.064147,117.797695
+WA1,Existing Plant,Broome Power Station,Natural Gas,-17.981027,122.204602
+WA1,Existing Plant,Burrup Peninsula (Karratha Gas Plant) Power Station,Natural Gas,-20.628649,116.782147
+WA1,Existing Plant,Burrup Peninsula (Pluto Phase 1) Power Station,Natural Gas,-20.59368,116.78015
+WA1,Existing Plant,Cockburn Power Station,Natural Gas,-32.200119,115.773679
+WA1,Existing Plant,Collie (Bluewaters) Power Station,Coal,-33.331,116.229
+WA1,Existing Plant,Dampier Power Station,Natural Gas,-20.647985,116.721904
+WA1,Existing Plant,Esperance Power Station,Natural Gas,-33.8762,121.8998
+WA1,Existing Plant,Geraldton Power Station,Natural Gas,-28.770107,114.648482
+WA1,Existing Plant,Kalgoorlie Power Station (Parkeston),Natural Gas,-30.73781,121.506543
+WA1,Existing Plant,Karratha Power Station,Natural Gas,-20.762567,116.837473
+WA1,Existing Plant,Kwinana (Alcoa Refinery) Powerhouse,Natural Gas,-32.194635,115.779676
+WA1,Existing Plant,Kwinana A Power Station,Coal,-32.1979529,115.7751616
+WA1,Existing Plant,Kwinana C Power Station,Coal,-32.19922939,115.7747022
+WA1,Existing Plant,Kwinana Cogeneration Power Station,Natural Gas,-32.222532,115.766121
+WA1,Existing Plant,Kwinana Power Station (Gas Turbine),Natural Gas,-32.19700264,115.7759455
+WA1,Existing Plant,Kwinana High Efficiency Gas Turbine Plant,Natural Gas,-32.19729543,115.7753864
+WA1,Existing Plant,Kwinana Power Station (NewGen),Natural Gas,-32.20198,115.772821
+WA1,Existing Plant,Kwinana Swift Power Station,Natural Gas,-32.22425833,115.7782769
+WA1,Existing Plant,Neerabup Power Station,Natural Gas,-31.67125,115.802149
+WA1,Existing Plant,Newman (Iron Ore Mine) Power Station,Natural Gas,-23.344275,119.708587
+WA1,Existing Plant,Pinjar Power Station,Natural Gas,-31.55768135,115.8204111
+WA1,Existing Plant,Pinjarra (Bauxite Mine & Alumina Refinery) Power Station,Natural Gas,-32.647303,115.946894
+WA1,Existing Plant,Ravensthorpe Power Station,Fossil,-33.61,120.36
+WA1,Existing Plant,Wagerup (Bauxite Mine & Alumina Refinery) Power Station,Natural Gas,-32.914495,115.916995
+WA1,Existing Plant,Wagerup Power Station,Natural Gas,-32.916017,115.918647
+WA1,Existing Plant,West Kalgoorlie Power Station,Fossil,-30.780635,121.423355
+WA1,Existing Plant,Port Hedland Power Station,Natural Gas,-20.4283,118.5498
+WA1,Existing Plant,Mount Magnet Power Station,Natural Gas,-28.08708434,117.832711
+WA1,Existing Plant,Collie A Power Station,Coal,-33.342181,116.261165
+WA1,Existing Plant,Kalgoorlie (Nickel Smelter) Power Station,Natural Gas,-30.873669,121.484188
+WA1,Existing Plant,Kambalda Power Station,Natural Gas,-31.19193479,121.6740843
+WA1,Existing Plant,Kemerton Power Station,Natural Gas,-33.16325,115.78054
+WA1,Existing Plant,Leinster (Nickel Mine) Power Station,Natural Gas,-27.8141215,120.6989965
+WA1,Existing Plant,Mount Keith (Nickel Mine) Power Station,Natural Gas,-27.214583,120.547979
+WA1,Existing Plant,Muja C Power Station,Coal,-33.445811,116.306012
+WA1,Existing Plant,Muja D Power Station,Coal,-33.44616,116.307213
+WA1,Existing Plant,Mungarra Power Station,Natural Gas,-28.889322,115.117938
+WA1,Existing Plant,Worsley Cogeneration Power Station,Natural Gas,-33.2365459,116.0637377
+WA1,Existing Plant,Yurralyi Maya Power Station (Karratha Seven Mile),Natural Gas,-20.762,116.742
+WA1,Existing Plant,Laverton (Granny Smith Gold Mine) Power Station,Fossil,-28.809649,122.415029
+WA1,Existing Plant,Argyle Diamond Mine Power Station,Fossil,-16.716157,128.40308
+WA1,Existing Plant,Christmas Creek (Iron Ore Mine) Power Station,Fossil,-22.399,119.732
+WA1,Existing Plant,Jundee Gold Mine Power Station,Natural Gas,-26.371212,120.577613
+WA1,Existing Plant,Leonora (Murrin Murrin Nickel Mine) Power Station,Natural Gas,-28.923754,121.32929
+WA1,Existing Plant,Ord River Power Station,Water,-16.120132,128.738325
+WA1,Existing Plant,Plutonic Gold Mine Power Station,Natural Gas,-25.311002,119.450757
+WA1,Existing Plant,Sunrise Dam Power Station,Natural Gas,-29.09268344,122.4392845
+WA1,Existing Plant,Wiluna (Gold Mine) Power Station,Natural Gas,-26.631568,120.251884
+WA1,Existing Plant,Paraburdoo (Standby) Power Station,Natural Gas,-23.22195329,117.6150307
+WA1,Existing Plant,Paraburdoo Power Station,Natural Gas,-23.223479,117.6134812
+WA1,Existing Plant,Telfer Gold Mine Power Station,Natural Gas,-21.712911,122.209103
+WA1,Existing Plant,Collgar Wind Farm,Wind - Wind,-31.50979034,118.4536204
+WA1,Existing Plant,Grasmere Wind Farm (Albany stage II),Wind - Wind,-35.05065052,117.7637609
+WA1,Existing Plant,Norseman Mine Power Station,Fossil,-32.1962648,121.7943338
+WA1,Existing Plant,Darlot Gold Mine Power Station,Natural Gas,-27.89720716,121.2697661
+WA1,Existing Plant,Windimurra Vanadium Mine Power Station,Natural Gas,-28.29331302,118.537147
+WA1,Existing Plant,Rottnest Island Wind Turbine,Wind - Wind,-31.99375199,115.5289139
+WA1,Existing Plant,Cloudbreak Power Station,Fossil,-22.32471027,119.404017
+WA1,Existing Plant,Port Hedland (HBI) Power Station,Natural Gas,-20.37817896,118.5383743
+WA1,Existing Plant,Noranda Power Station,Biogas,-31.8653894,115.8773271
+WA1,Existing Plant,Red Hill Landfill Power Station,Biogas,-31.83165058,116.0992397
+WA1,Existing Plant,Shenton Park WMRC Project Power Station,Biogas,-31.95766666,115.7924435
+WA1,Existing Plant,Kalamunda Power Station,Fossil,-31.97677862,115.9987933
+WA1,Existing Plant,Canning Vale Power Station,Biogas,-32.07389875,115.8914057
+WA1,Existing Plant,Gosnells (Kelvin Road) Power Station,Biogas,-32.02275096,116.0128715
+WA1,Existing Plant,Bremer Bay Wind Turbine,Wind - Wind,-34.39900715,119.3914814
+WA1,Existing Plant,Bremer Bay Diesel Backup Power Station,Fossil,-34.40182818,119.3888043
+WA1,Existing Plant,Coral Bay Wind Turbines,Wind - Wind,-23.15441917,113.7720668
+WA1,Existing Plant,Coral Bay Diesel Backup Power Station,Fossil,-23.15214432,113.776179
+WA1,Existing Plant,Denham Wind Turbines,Wind - Wind,-25.91152387,113.549311
+WA1,Existing Plant,Denham Diesel Backup Power Station,Fossil,-25.91672484,113.5339545
+WA1,Existing Plant,Woodman Point Power Station,Biogas,-32.14241986,115.771305
+WA1,Existing Plant,Henderson Power Station,Biogas,-32.16502102,115.8008001
+WA1,Existing Plant,Tamala Park Power Station,Biogas,-31.70778613,115.7266449
+WA1,Existing Plant,Mandurah Power Station,Biogas,-32.50791827,115.7589572
+WA1,Existing Plant,Rockingham Power Station,Biogas,-32.28632251,115.8153889
+WA1,Existing Plant,South Cardup (Shale Road Landfill) Power Station,Biogas,-32.26643616,116.0193144
+WA1,Existing Plant,Cue Power Station,Fossil,-27.42124775,117.8894843
+WA1,Existing Plant,Sandstone Power Station,Fossil,-27.98526935,119.2949593
+WA1,Existing Plant,Nullagine Solar Farm,Solar - Solar,-21.8795011,120.1117234
+WA1,Existing Plant,Nullagine Diesel Backup Power Station,Fossil,-21.87944415,120.1128625
+WA1,Existing Plant,Marble Bar Solar Farm,Solar - Solar,-21.16434463,119.7412
+WA1,Existing Plant,Marble Bar Diesel Backup Power Station,Fossil,-21.16492293,119.7418515
+WA1,Existing Plant,Derby Power Station,Natural Gas,-17.31414107,123.64415
+WA1,Existing Plant,Fitzroy Crossing Power Station,Natural Gas,-18.19557505,125.5597112
+WA1,Existing Plant,Halls Creek Power Station,Natural Gas,-18.23275148,127.661897
+WA1,Existing Plant,Warmun Power Station,Fossil,-17.0258835,128.2113196
+WA1,Existing Plant,Kununurra Power Station,Fossil,-15.77955678,128.739462
+WA1,Existing Plant,Laverton Power Station,Fossil,-28.62162366,122.396468
+WA1,Existing Plant,Exmouth Power Station,Natural Gas,-21.94645795,114.1249981
+WA1,Existing Plant,Kalumburu Power Station,Fossil,-14.29385553,126.6439552
+WA1,Existing Plant,Ardyaloon Power Station,Fossil,-16.44441722,123.0413738
+WA1,Existing Plant,Djarindjin Power Station,Fossil,-16.51990769,122.9035895
+WA1,Existing Plant,Beagle Bay Power Station,Fossil,-16.99390006,122.6585086
+WA1,Existing Plant,Bidyadanga Power Station,Fossil,-18.68162717,121.7847809
+WA1,Existing Plant,Gascoyne Junction Power Station,Fossil,-25.05569376,115.2082892
+WA1,Existing Plant,Wiluna Power Station,Fossil,-26.59215989,120.2185089
+WA1,Existing Plant,Yalgoo Power Station,Fossil,-28.33753663,116.6834916
+WA1,Existing Plant,Carnarvon Power Station,Natural Gas,-24.86915968,113.6753754
+WA1,Existing Plant,Mungullah Power Station,Natural Gas,-24.89105146,113.7095328
+WA1,Existing Plant,Exmouth Advanced Mini Wind Farm,Wind - Wind,-21.8126315,114.1335056
+WA1,Existing Plant,Worsley Power Station,Coal,-33.23549327,116.0687975
+WA1,Existing Plant,Kalbarri PV System,Solar - Solar,-27.71161901,114.1636415
+WA1,Existing Plant,Esperance Wind Farm Ten Mile Lagoon,Wind - Wind,-33.88016906,121.7690389
+WA1,Existing Plant,Muja B Power Station,Coal,-33.44680683,116.3087195
+WA1,Existing Plant,Muja A Power Station,Coal,-33.44667107,116.3081086
+WA1,Existing Plant,Kalbarri Wind Farm,Wind - Wind,-27.89830292,114.1946951
+WA1,Existing Plant,Wodgina Power Station,Natural Gas,-21.17388339,118.674721
+WA1,Existing Plant,Savannah Nickel Mine Power Station,Fossil,-17.36309536,128.0330764
+WA1,Existing Plant,Meekatharra Power Station,Fossil,-26.59517155,118.483022
+WA1,Existing Plant,Leonora Power Station,Natural Gas,-28.88107638,121.3212747
+WA1,Existing Plant,Menzies Power Station,Fossil,-29.6906019,121.0251779
+WA1,Existing Plant,Onslow Power Station,Natural Gas,-21.65822155,115.0990248
+WA1,Existing Plant,Hopetoun Diesel Backup Power Station,Fossil,-33.90504892,120.129934
+WA1,Existing Plant,Hopetoun Wind Turbines,Wind - Wind,-33.90776359,120.1296812
+WA1,Existing Plant,Camballin Power Station,Natural Gas,-18.02775749,124.1620851
+WA1,Existing Plant,Cawse Nickel Mine Power Station,Natural Gas,-30.38080581,121.1634809
+WA1,Existing Plant,Perth Zoo Solar Power System,Solar - Solar,-31.97666278,115.8547801
+WA1,Existing Plant,Carnarvon Solar Farm,Solar - Solar,-24.89702912,113.6741161
+WA1,Existing Plant,Narrogin Bioenergy Plant,Biomass,-32.95211795,117.191581
+WA1,Existing Plant,Merredin Power Station,Natural Gas,-31.54231385,118.2269979
+WA1,Existing Plant,West Angeles Mine Power Station,Natural Gas,-23.15464855,118.7245217
+WA1,Existing Plant,Cape Preston,Natural Gas,-21.07670614,116.1590157
+WA1,Existing Plant,Solomon Iron Ore Mine,Natural GAs,-22.15813879,117.9848638
+WA1,Existing Plant,Cape Lambert Power Station,Natural Gas,-20.64877064,117.1407313
+WA1,Existing Plant,Greenough River Solar Farm,Solar - Solar,-28.90431806,115.1119375
+WA1,Existing Plant,Mumbida Wind Farm,Wind - Wind,-28.83930919,114.7350949
+WA1,Existing Plant,Denmark Wind Farm,Wind - Wind,-35.0363,117.3202
+WA1,Existing Plant,Flat Rocks Wind Farm,Wind - Wind,-33.9926696,117.3542914
+WA1,Existing Plant,Manjimup Bioenergy Plant,Biomass,-34.2432496,116.1454595
+WA1,Existing Plant,Mirrabooka Biogas Plant,Biogas,-31.856588,115.8677283
+WA1,Existing Plant,Mount Barker Wind Farm,Wind - Wind,-35.0731986,138.8575836
+WA1,Existing Plant,Northam Solar Farm,Solar - Solar,-31.6539634,116.6619872
+WA1,Existing Plant,Picton Power Station,Distillate,-34.1645,150.6106
+WA1,Existing Plant,Pinjara Power Station,Natural Gas,-32.6462926,115.9464342
+WA1,Existing Plant,Tamala Park Biogas Plant,Biogas,-31.704321,115.7349162
+WA1,Existing Plant,West Hills Wind Farm,Wind - Wind,-30.8705625,115.3910781
+WA1,Existing Plant,Yandin Wind Farm,Wind - Wind,-30.7682763,115.6429709
+NSW1,Existing Plant,Bayswater (BW01),Fossil,-32.39284666,150.9490013
+NSW1,Existing Plant,Eraring (ER01),Fossil,-33.05998167,151.5196621
+QLD1,Existing Plant,Tarong North (TNPS1),Fossil,-26.77578314,151.913753
+QLD1,Existing Plant,Tarong (TARONG#1),Fossil,-26.78312065,151.916138
+NSW1,Existing Plant,Vales Point B (VP5),Fossil,-33.1617108,151.5410009
+QLD1,Existing Plant,Stanwell (STAN-1),Fossil,-23.50784748,150.3206658
+QLD1,Existing Plant,Gladstone (GSTONE1),Fossil,-23.84857519,151.2185978
+QLD1,Existing Plant,Callide B (CALL_B_1),Fossil,-24.3491746,150.6183193
+QLD1,Existing Plant,Callide C (CPP_3),Fossil,-24.34458376,150.6205991
+QLD1,Existing Plant,Callide C (CPP_4),Fossil,-24.34314376,150.6221791
+QLD1,Existing Plant,Gladstone (GSTONE4),Fossil,-23.84713519,151.2201778
+QLD1,Existing Plant,Gladstone (GSTONE5),Fossil,-23.85001519,151.2170178
+QLD1,Existing Plant,Stanwell (STAN-2),Fossil,-23.50784248,150.3206608
+VIC1,Existing Plant,Loy Yang B (LOYYB2),Fossil,-38.26144,146.57817
+VIC1,Existing Plant,Loy Yang A Power Station (LYA2),Fossil,-38.24856,146.58183
+VIC1,Existing Plant,Loy Yang A Power Station (LYA4),Fossil,-38.25144,146.57817
+VIC1,Existing Plant,Loy Yang A Power Station (LYA3),Fossil,-38.24856,146.57817
+VIC1,Existing Plant,Yallourn W (YWPS3),Fossil,-38.17585193,146.343627
+VIC1,Existing Plant,Yallourn W (YWPS2),Fossil,-38.17873193,146.343627
+VIC1,Existing Plant,Yallourn W (YWPS1),Fossil,-38.17729193,146.341797
+VIC1,Existing Plant,Yallourn W (YWPS4),Fossil,-38.17585193,146.339967
+SA1,Existing Plant,Pelican Point (PPCCGT),Fossil,-34.7647301,138.5051898
+SA1,Existing Plant,Barker Inlet Power Station (BARKIPS1),Fossil,-34.80423725,138.5248421
+QLD1,Existing Plant,Yarwun 1 (YARWUN_1),Fossil,-23.83103444,151.1509536
+SA1,Existing Plant,Torrens Island B (TORRB4),Fossil,-34.80697301,138.5250471
+SA1,Existing Plant,Hallett GT (AGLHAL),Fossil,-33.35202326,138.7534505
+QLD1,Existing Plant,German Creek (GERMCRK),Fossil,-22.91067695,148.5638788
+QLD1,Existing Plant,Moranbah North (MBAHNTH),Fossil,-21.88193312,147.9579639
+QLD1,Existing Plant,Braemar 2 Power Station (BRAEMAR5),Fossil,-27.11127729,150.9070184
+NSW1,Existing Plant,Smithfield Energy Facility (SITHE01),Fossil,-33.84867571,150.9471752
+QLD1,Existing Plant,Braemar 2 Power Station (BRAEMAR7),Fossil,-27.11271729,150.9070184
+SA1,Existing Plant,Ladbroke Grove (LADBROK2),Fossil,-37.459995,140.779995
+SA1,Existing Plant,Bolivar Power Station (BOLIVPS1),Fossil,-34.77562676,138.5797571
+VIC1,Existing Plant,Somerton (AGLSOM),Fossil,-37.63165796,144.9530284
+QLD1,Existing Plant,Barcaldine Power Station (BARCALDN),Fossil,-23.55241171,145.3145086
+TAS1,Existing Plant,Bell Bay Three (BBTHREE1),Fossil,-41.1399398,146.9056284
+TAS1,Existing Plant,Bell Bay Three (BBTHREE2),Fossil,-41.1384998,146.9074584
+TAS1,Existing Plant,Bell Bay Three (BBTHREE3),Fossil,-41.1413798,146.9037984
+QLD1,Existing Plant,Braemar (BRAEMAR1),Fossil,-27.11127729,150.9051884
+QLD1,Existing Plant,Braemar (BRAEMAR2),Fossil,-27.10983729,150.9070184
+QLD1,Existing Plant,Braemar (BRAEMAR3),Fossil,-27.11271729,150.9033584
+QLD1,Existing Plant,Braemar (BRAEMAR6),Fossil,-27.10983729,150.9033584
+NSW1,Existing Plant,Colongra (CG1),Fossil,-33.20963176,151.544018
+NSW1,Existing Plant,Colongra (CG2),Fossil,-33.20819176,151.545848
+NSW1,Existing Plant,Colongra (CG3),Fossil,-33.21107176,151.542188
+NSW1,Existing Plant,Colongra (CG4),Fossil,-33.20819176,151.542188
+QLD1,Existing Plant,Condamine A (CPSA),Fossil,-26.66909265,150.2691519
+QLD1,Existing Plant,Darling Downs (DDPS1),Fossil,-27.11605404,150.8947828
+SA1,Existing Plant,Dry Creek GT (DRYCGT1),Fossil,-34.84745744,138.581723
+SA1,Existing Plant,Dry Creek GT (DRYCGT2),Fossil,-34.84601744,138.583553
+SA1,Existing Plant,Dry Creek GT (DRYCGT3),Fossil,-34.84889744,138.579893
+VIC1,Existing Plant,Jeeralang A (JLA02),Fossil,-38.27856,146.43183
+VIC1,Existing Plant,Jeeralang A (JLA03),Fossil,-38.28144,146.42817
+VIC1,Existing Plant,Jeeralang A (JLA04),Fossil,-38.27856,146.42817
+VIC1,Existing Plant,Jeeralang B (JLB01),Fossil,-38.28144,146.43183
+VIC1,Existing Plant,Jeeralang B (JLB02),Fossil,-38.27856,146.43
+VIC1,Existing Plant,Jeeralang B (JLB03),Fossil,-38.28,146.43183
+VIC1,Existing Plant,Laverton North (LNGS1),Fossil,-37.83,144.78
+VIC1,Existing Plant,Laverton North (LNGS2),Fossil,-37.82856,144.78183
+QLD1,Existing Plant,Oakey Power Station (OAKEY1),Fossil,-27.41877712,151.6804464
+QLD1,Existing Plant,Oakey Power Station (OAKEY2),Fossil,-27.41733712,151.6822764
+QLD1,Existing Plant,Roma (ROMA_7),Fossil,-26.57713348,148.8402477
+NSW1,Existing Plant,Tallawarra (TALWA1),Fossil,-34.52466429,150.8068029
+SA1,Existing Plant,Torrens Island B (TORRB1),Fossil,-34.80841301,138.5232171
+TAS1,Existing Plant,Tamar Valley Combined Cycle (TVCC201),Fossil,-41.13993712,146.9059329
+TAS1,Existing Plant,Tamar Valley Peaking (TVPP104),Fossil,-41.1407491,146.9055204
+NSW1,Existing Plant,Uranquinty (URANQ11),Fossil,-35.17945712,147.2167561
+VIC1,Existing Plant,Valley Power (VPGS1),Fossil,-38.25316765,146.5895104
+VIC1,Existing Plant,Bairnsdale (BDL01),Fossil,-37.84288705,147.5640478
+QLD1,Existing Plant,Swanbank E GT (SWAN_E),Fossil,-27.6553873,152.8183816
+TAS1,Existing Plant,Gordon (GORDON),Hydro - Water,-42.74045168,145.9828546
+TAS1,Existing Plant,Tungatinah (TUNGATIN),Hydro - Water,-42.2967801,146.456684
+TAS1,Existing Plant,Catagunya / Liapootah / Wayatinah (LI_WY_CA),Hydro - Water,-42.45214529,146.5976307
+TAS1,Existing Plant,Trevallyn (TREVALLN),Hydro - Water,-41.42249971,147.1117237
+TAS1,Existing Plant,Cethana (CETHANA),Hydro - Water,-41.48017149,146.1339355
+TAS1,Existing Plant,Tribute (TRIBUTE),Hydro - Water,-41.81606813,145.6497247
+TAS1,Existing Plant,Devils Gate (DEVILS_G),Hydro - Water,-41.35002115,146.2648198
+TAS1,Existing Plant,Paloona (PALOONA),Hydro - Water,-41.28284675,146.2487099
+QLD1,Existing Plant,Kareeya (KAREEYA1),Hydro - Water,-17.77,145.58
+TAS1,Existing Plant,Tarraleah (TARRALEA),Hydro - Water,-42.30077856,146.4576287
+TAS1,Existing Plant,Repulse (REPULSE),Hydro - Water,-42.5001692,146.640184
+VIC1,Existing Plant,Clover (CLOVER),Hydro - Water,-36.78532716,147.2204662
+TAS1,Existing Plant,Cluny (CLUNY),Hydro - Water,-42.50742332,146.6464579
+VIC1,Existing Plant,Rubicon Mountain Streams (RUBICON),Hydro - Water,-37.32715567,145.8606089
+VIC1,Existing Plant,Bogong / Mackay (MCKAY1),Hydro - Water,-36.85874553,147.234327
+QLD1,Existing Plant,Barron Gorge (BARRON-1),Hydro - Water,-16.85120879,145.6469204
+TAS1,Existing Plant,Bastyan (BASTYAN),Hydro - Water,-41.73616838,145.5321854
+NSW1,Existing Plant,Blowering (BLOWERNG),Hydro - Water,-35.39872187,148.2464095
+VIC1,Existing Plant,Dartmouth (DARTM1),Hydro - Water,-36.5563444,147.5203881
+VIC1,Existing Plant,Eildon (EILDON1),Hydro - Water,-37.22167509,145.9209582
+TAS1,Existing Plant,Fisher (FISHER),Hydro - Water,-41.67324433,146.2686905
+NSW1,Existing Plant,Guthega (GUTHEGA),Hydro - Water,-36.34999609,148.4136147
+NSW1,Existing Plant,Hume Dam NSW (HUMENSW),Hydro - Water,-36.10548318,147.0329251
+VIC1,Existing Plant,Hume Dam VIC (HUMEV),Hydro - Water,-36.10800347,147.0295064
+TAS1,Existing Plant,John Butters (JBUTTERS),Hydro - Water,-42.15,145.53
+VIC1,Existing Plant,Murray 1 (MURRAY),Hydro - Water,-36.25,149.14
+TAS1,Existing Plant,Poatina (POAT110),Hydro - Water,-41.80602863,146.9254912
+TAS1,Existing Plant,Reece (REECE1),Hydro - Water,-41.72450807,145.1347793
+NSW1,Existing Plant,Shoalhaven (SHGEN),Hydro - Water,-34.73390783,150.4672415
+NSW1,Existing Plant,Tumut 3 (TUMUT3),Hydro - Water,-35.61120161,148.2917139
+NSW1,Existing Plant,Upper Tumut (UPPTUMUT),Hydro - Water,-35.90996237,148.3865379
+QLD1,Existing Plant,Wivenhoe (W/HOE#1),Hydro - Water,-27.37198336,152.6320084
+VIC1,Existing Plant,West Kiewa (WKIEWA1),Hydro - Water,-36.75992195,147.1854099
+TAS1,Existing Plant,Rowallan (ROWALLAN),Hydro - Water,-41.72957526,146.2173147
+NSW1,Existing Plant,Rye Park Wind Farm (RYEPARK1),Wind - Wind,-34.63333311,148.9535878
+QLD1,Existing Plant,Coopers Gap Wind Farm (COOPGWF1),Wind - Wind,-26.74813071,151.4593469
+VIC1,Existing Plant,Stockyard Hill Wind Farm (STOCKYD1),Wind - Wind,-37.55212928,143.3085761
+NSW1,Existing Plant,Collector (COLWF01),Wind - Wind,-34.84060037,149.383936
+NSW1,Existing Plant,White Rock Wind Farm - Stage 1 (WRWF1),Wind - Wind,-29.76242817,151.5447342
+NSW1,Existing Plant,Gullen Range Wind Farm (GULLRWF1),Wind - Wind,-34.61465682,149.4630453
+NSW1,Existing Plant,Capital Wind Farm (CAPTL_WF),Wind - Wind,-35.18781331,149.5240636
+VIC1,Existing Plant,Waubra (WAUBRAWF),Wind - Wind,-37.39496265,143.6386252
+VIC1,Existing Plant,Moorabool Wind Farm (MOORAWF1),Wind - Wind,-37.73954934,144.1718192
+NSW1,Existing Plant,Taralga Wind Farm (TARALGA1),Wind - Wind,-34.42308252,149.8284795
+VIC1,Existing Plant,Bald Hills Wind Farm (BALDHWF1),Wind - Wind,-38.74768802,145.9502859
+NSW1,Existing Plant,Gullen Range Wind Farm 2 (GULLRWF2),Wind - Wind,-34.61514649,149.4598378
+NSW1,Existing Plant,Bango 973 Wind Farm (BANGOWF1),Wind - Wind,-34.55759049,148.7964384
+NSW1,Existing Plant,Bango 999 Wind Farm (BANGOWF2),Wind - Wind,-34.55615049,148.7982684
+QLD1,Existing Plant,Mount Emerald (MEWF1),Wind - Wind,-36.42688042,142.2929256
+VIC1,Existing Plant,Murra Warra Wind Farm - stage 1 (MUWAWF1),Wind - Wind,-36.42295572,142.3022276
+VIC1,Existing Plant,Murra Warra Wind Farm - stage 2 (MUWAWF2),Wind - Wind,-36.42151572,142.3040576
+VIC1,Existing Plant,Bulgana Green Power Hub - Wind Farm (BULGANA1),Wind - Wind,-37.05198837,142.9831795
+QLD1,Existing Plant,Dulacca Wind Farm (DULAWF1),Wind - Wind,-26.62976365,149.86894
+VIC1,Existing Plant,Mortlake South Wind Farm (MRTLSWF1),Wind - Wind,-38.12771276,142.857066
+TAS1,Existing Plant,Woolnorth Studland Bay / Bluff Point (WOOLNTH1),Wind - Wind,-40.71886763,144.6869307
+VIC1,Existing Plant,Ararat Wind Farm (ARWF1),Wind - Wind,-37.26276539,143.078424
+NSW1,Existing Plant,Bodangora Wind Farm (BODWF1),Wind - Wind,-32.40689277,149.04133
+QLD1,Existing Plant,Kaban Wind Farm (KABANWF1),Wind - Wind,-17.56043426,145.4132563
+VIC1,Existing Plant,Portland Wind Farm (PORTWF),Wind - Wind,-38.37460527,141.378713
+VIC1,Existing Plant,Yendon Wind Farm (YENDWF1),Wind - Wind,-37.63037047,144.0218933
+NSW1,Existing Plant,Woodlawn Wind Farm (WOODLWN1),Wind - Wind,-35.09553093,149.5790047
+NSW1,Existing Plant,Gunning Wind Farm (GUNNING1),Wind - Wind,-34.69704654,149.3845838
+VIC1,Existing Plant,Mt Mercer Wind Farm (MERCER01),Wind - Wind,-37.83185593,143.8887234
+NSW1,Existing Plant,Silverton Wind Farm (STWF1),Wind - Wind,-31.86094517,141.2963042
+TAS1,Existing Plant,Cattle Hill Wind Farm (CTHLWF1),Wind - Wind,-42.15842429,146.7127454
+VIC1,Existing Plant,Dundonnell Wind Farm (DUNDWF1),Wind - Wind,-37.86517036,142.9683485
+VIC1,Existing Plant,Cherry Tree Wind Farm (CHYTWF1),Wind - Wind,-37.10036482,145.2675024
+SA1,Existing Plant,Lake Bonney 2 Wind Farm (LKBONNY2),Wind - Wind,-37.7301708,140.3807653
+NSW1,Existing Plant,Cullerin Range Wind Farm (CULLRGWF),Wind - Wind,-34.81807622,149.3991615
+TAS1,Existing Plant,Granville Harbour Wind Farm (GRANWF1),Wind - Wind,-41.78661058,145.047441
+VIC1,Existing Plant,Berrybank Wind Farm (BRYB1WF1),Wind - Wind,-37.98284158,143.4752707
+VIC1,Existing Plant,Elaine Wind Farm (ELAINWF1),Wind - Wind,-37.73295302,144.0115798
+TAS1,Existing Plant,Musselroe Wind Farm (MUSSELR1),Wind - Wind,-40.7804692,148.0100807
+VIC1,Existing Plant,Yambuk (YAMBUKWF),Wind - Wind,-38.29922567,142.0269972
+VIC1,Existing Plant,Salt Creek Wind Farm (SALTCRK1),Wind - Wind,-37.91874021,142.7960263
+SA1,Existing Plant,Lake Bonney 1 Wind Farm (LKBONNY1),Wind - Wind,-37.78704094,140.4068008
+VIC1,Existing Plant,Oaklands Hill Wind Farm (OAKLAND1),Wind - Wind,-37.68160184,142.5522734
+QLD1,Existing Plant,Kennedy Energy Park - Phase 1 - Wind (KEPWF1),Wind - Wind,-20.92900912,144.3802926
+VIC1,Existing Plant,Crowlands Wind Farm (CROWLWF1),Wind - Wind,-37.12641385,143.1559722
+SA1,Existing Plant,Canunda (CNUNDAWF),Wind - Wind,-37.81058374,140.418702
+SA1,Existing Plant,Lake Bonney 3 Wind Farm (LKBONNY3),Wind - Wind,-37.74140007,140.3948821
+VIC1,Existing Plant,Kiata Wind Farm (KIATAWF1),Wind - Wind,-36.39770452,141.7468573
+SA1,Existing Plant,Hornsdale Wind Farm Stage 1 (HDWF1),Wind - Wind,-33.05308502,138.548554
+VIC1,Existing Plant,Mortons Lane Wind Farm (MLWF1),Wind - Wind,-37.83527863,142.4662926
+SA1,Existing Plant,Hornsdale Wind Farm Stage 3 (HDWF3),Wind - Wind,-33.05164502,138.550384
+SA1,Existing Plant,Cathedral Rocks (CATHROCK),Wind - Wind,-34.86503297,135.593156
+SA1,Existing Plant,Hornsdale Wind Farm Stage 2 (HDWF2),Wind - Wind,-33.05452502,138.546724
+SA1,Existing Plant,Snowtown S2 Wind Farm (SNOWNTH1),Wind - Wind,-33.83047922,138.1185346
+SA1,Existing Plant,Starfish Hill (STARHLWF),Wind - Wind,-35.5777894,138.1297433
+SA1,Existing Plant,Hallett 5 The Bluff WF (BLUFF1),Wind - Wind,-33.36456337,138.8054598
+SA1,Existing Plant,Clements Gap Wind Farm (CLEMGPWF),Wind - Wind,-33.48094919,138.0988321
+NSW1,Existing Plant,Crookwell 2 Wind Farm (CROOKWF2),Wind - Wind,-34.54411927,149.5867015
+NSW1,Existing Plant,Crudine Ridge Wind Farm (CRURWF1),Wind - Wind,-32.89947153,149.6483843
+SA1,Existing Plant,Hallett Stage 1 Brown Hill (HALLWF1),Wind - Wind,-33.40804338,138.7262177
+SA1,Existing Plant,Hallett Stage 2 Hallett Hill (HALLWF2),Wind - Wind,-33.55232031,138.8620082
+SA1,Existing Plant,Lincoln Gap Wind Farm - stage 1 (LGAPWF1),Wind - Wind,-32.58805069,137.5559767
+SA1,Existing Plant,Lincoln Gap Wind Farm - Stage 2 (LGAPWF2),Wind - Wind,-32.58834321,137.5736632
+SA1,Existing Plant,Mt Millar Wind Farm (MTMILLAR),Wind - Wind,-33.62,136.7
+SA1,Existing Plant,Hallett 4 North Brown Hill (NBHWF1),Wind - Wind,-33.30186004,138.7068903
+SA1,Existing Plant,Port Augusta Renewable Energy Park - Wind (PAREPW1),Wind - Wind,-32.57813703,137.8625855
+SA1,Existing Plant,Snowtown Wind Farm (SNOWTWN1),Wind - Wind,-33.71267576,138.1331813
+SA1,Existing Plant,Waterloo Wind Farm (WATERLWF),Wind - Wind,-34.00161354,138.9107764
+SA1,Existing Plant,Willogoleche Wind Farm (WGWF1),Wind - Wind,-33.44957585,138.7974442
+SA1,Existing Plant,Wattle Point (WPWF),Wind - Wind,-35.1144462,137.7218572
+QLD1,Existing Plant,Western Downs Green Power Hub P/L (WDGPH1),Solar - Solar,-26.97165954,150.6711367
+NSW1,Existing Plant,Darlington Point Solar Farm (DARLSF1),Solar - Solar,-34.647962,146.0585378
+NSW1,Existing Plant,Sunraysia Solar Farm (SUNRSF1),Solar - Solar,-34.79364568,143.5136651
+QLD1,Existing Plant,Columboola Solar Farm (COLUMSF1),Solar - Solar,-26.63549943,150.2991827
+QLD1,Existing Plant,Edenvale Solar Park (EDENVSF1),Solar - Solar,-26.93045229,150.5821221
+QLD1,Existing Plant,Bluegrass Solar Farm (BLUEGSF1),Solar - Solar,-26.68449117,150.5069519
+NSW1,Existing Plant,Avonlie Solar Farm (AVLSF1),Solar - Solar,-34.91984708,146.6097561
+NSW1,Existing Plant,Suntop Solar Farm (SUNTPSF1),Solar - Solar,-32.57980465,148.8313343
+QLD1,Existing Plant,Wandoan South Solar Stage 1 (WANDSF1),Solar - Solar,-26.25726549,149.7756574
+NSW1,Existing Plant,Coleambally Solar Farm (COLEASF1),Solar - Solar,-34.76143376,145.9244437
+NSW1,Existing Plant,Gunnedah Solar Farm (GNNDHSF1),Solar - Solar,-30.9416777,150.3492876
+SA1,Existing Plant,Bungala Two Solar Farm (BNGSF2),Solar - Solar,-32.40760538,137.8418163
+NSW1,Existing Plant,Wellington Solar Farm (WELLSF1),Solar - Solar,-32.51380499,148.9611779
+SA1,Existing Plant,Bungala One Solar Farm (BNGSF1),Solar - Solar,-32.42286102,137.8415641
+NSW1,Existing Plant,Finley Solar Farm (FINLYSF1),Solar - Solar,-35.64432165,145.5080041
+NSW1,Existing Plant,Nyngan Solar Plant (NYNGAN1),Solar - Solar,-31.5567806,147.0838117
+QLD1,Existing Plant,Darling Downs Solar Farm (DDSF1),Solar - Solar,-27.11458502,150.8762272
+NSW1,Existing Plant,Hillston Sun Farm (HILLSTN1),Solar - Solar,-33.51940947,145.5230579
+VIC1,Existing Plant,Numurkah Solar Farm (NUMURSF1),Solar - Solar,-36.15904684,145.4733256
+NSW1,Existing Plant,West Wyalong Solar Farm (WSTWYSF1),Solar - Solar,-33.78942526,147.3191666
+VIC1,Existing Plant,Glenrowan West Solar Farm (GLRWNSF1),Solar - Solar,-36.48852221,146.1536122
+VIC1,Existing Plant,Karadoc Solar Farm (KARSF1),Solar - Solar,-34.41186231,142.2522743
+QLD1,Existing Plant,Daydream Solar Farm (DAYDSF1),Solar - Solar,-20.48554277,147.7707843
+SA1,Existing Plant,Tailem Bend Stage 2 Solar Project (TB2SF1),Solar - Solar,-35.27606506,139.4899255
+SA1,Existing Plant,Tailem Bend - Solar (TBSF1),Solar - Solar,-35.26572197,139.4800536
+NSW1,Existing Plant,Nevertire Solar Farm (NEVERSF1),Solar - Solar,-31.82249713,147.7035751
+NSW1,Existing Plant,Beryl Solar Farm (BERYLSF1),Solar - Solar,-32.35750525,149.4680333
+QLD1,Existing Plant,Ross River Solar Farm (RRSF1),Solar - Solar,-19.41451041,146.7205932
+SA1,Existing Plant,Port Augusta Renewable Energy Park - Solar (PAREPS1),Solar - Solar,-32.56236871,137.8634221
+VIC1,Existing Plant,Yatpool Solar Farm (YATSF1),Solar - Solar,-34.39672987,142.1734125
+QLD1,Existing Plant,Yarranlea Solar Farm (YARANSF1),Solar - Solar,-27.71208816,151.5268976
+NSW1,Existing Plant,Wyalong Solar Farm (WYASF1),Solar - Solar,-33.88720151,147.3173538
+NSW1,Existing Plant,Moree Solar Farm (MOREESF1),Solar - Solar,-29.56941435,149.8673629
+VIC1,Existing Plant,Wemen Solar Farm (WEMENSF1),Solar - Solar,-34.79449428,142.537815
+VIC1,Existing Plant,Bannerton Solar Park (BANN1),Solar - Solar,-34.6911712,142.7666241
+QLD1,Existing Plant,Oakey 2 Solar Farm (OAKEY2SF),Solar - Solar,-27.41453873,151.6577656
+QLD1,Existing Plant,Sun Metals Corporation Solar Farm (SMCSF1),Solar - Solar,-19.33130621,146.8922697
+NSW1,Existing Plant,Broken Hill Solar Plant (BROKENH1),Solar - Solar,-31.98757869,141.3928878
+VIC1,Existing Plant,Gannawarra Solar Farm (GANNSF1),Solar - Solar,-35.72863766,143.7832116
+QLD1,Existing Plant,Whitsunday Solar Farm (WHITSF1),Solar - Solar,-20.49485165,147.7486161
+NSW1,Existing Plant,Parkes Solar Farm (PARSF1),Solar - Solar,-33.11371997,148.0762933
+QLD1,Existing Plant,Clare Solar Farm (CLARESF1),Solar - Solar,-19.84103824,147.2058626
+NSW1,Existing Plant,Limondale Solar Farm 2 (LIMOSF21),Solar - Solar,-34.76585818,143.4929813
+NSW1,Existing Plant,Jemalong Solar (JEMALNG1),Solar - Solar,-33.38843867,147.6684282
+QLD1,Existing Plant,Hayman Solar Farm (HAYMSF1),Solar - Solar,-20.48406789,147.7472193
+QLD1,Existing Plant,Gangarri Solar Farm (GANGARR1),Solar - Solar,-26.25745264,149.7621023
+NSW1,Existing Plant,Goonumbla Solar Farm (GOONSF1),Solar - Solar,-33.10569763,148.1039521
+NSW1,Existing Plant,Corowa Solar Farm (CRWASF1),Solar - Solar,-35.97888043,146.3589812
+NSW1,Existing Plant,Griffith Solar Farm (GRIFSF1),Solar - Solar,-34.31753287,146.1193378
+QLD1,Existing Plant,Warwick Solar Farm (WARWSF1),Solar - Solar,-28.18414751,152.0715164
+QLD1,Existing Plant,Rugby Run Solar Farm (RUGBYR1),Solar - Solar,-22.14257185,147.9290066
+QLD1,Existing Plant,Hamilton Solar Farm (HAMISF1),Solar - Solar,-20.51053519,147.756966
+VIC1,Existing Plant,Winton Solar Farm (WINTSF1),Solar - Solar,-36.50319671,146.1223031
+NSW1,Existing Plant,Wagga North Solar Farm (WAGGNSF1),Solar - Solar,-35.06810097,147.4352355
+QLD1,Existing Plant,Moura Solar Farm (MOUSF1),Solar - Solar,-24.5138797,150.0868432
+NSW1,Existing Plant,Molong Solar Farm (MOLNGSF1),Solar - Solar,-33.08985971,148.9115222
+NSW1,Existing Plant,Royalla Solar Farm (ROYALLA1),Solar - Solar,-35.48978639,149.1427618
+QLD1,Existing Plant,Clermont Solar Farm (CLERMSF1),Solar - Solar,-22.83941206,147.5810409
+QLD1,Existing Plant,Collinsville PV (CSPVPS1),Solar - Solar,-20.54596587,147.8103027
+NSW1,Existing Plant,Bomen Solar Farm (BOMENSF1),Solar - Solar,-35.05171091,147.4397787
+QLD1,Existing Plant,Longreach Solar Farm (LRSF1),Solar - Solar,-23.44599611,144.3591011
+QLD1,Existing Plant,Susan River Solar Farm (SRSF1),Solar - Solar,-25.42013222,152.7421925
+QLD1,Existing Plant,Maryrorough Solar Farm (MARYRSF1),Solar - Solar,-27.70280621,151.5412736
+QLD1,Existing Plant,Emerald Solar Park (EMERASF1),Solar - Solar,-23.50814685,148.1277771
+QLD1,Existing Plant,Lilyvale Solar Farm (LILYSF1),Solar - Solar,-23.08451484,148.4282162
+NSW1,Existing Plant,Junee Solar Farm (JUNEESF1),Solar - Solar,-34.81457055,147.5718603
+NSW1,Existing Plant,White Rock Solar Farm (WRSF1),Solar - Solar,-29.76452439,151.5536248
+QLD1,Existing Plant,Barcaldine Remote Community Solar Farm (BARCSF1),Solar - Solar,-23.54665407,145.3189743
+QLD1,Existing Plant,Hughenden Sun Farm (HUGSF1),Solar - Solar,-20.85493764,144.1864219
+SA1,Existing Plant,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer) (MAPS2PV1),Solar - Solar,-34.91639405,139.2658612
+QLD1,Existing Plant,Kennedy Energy Park - Phase 1 - Solar (KEPSF1),Solar - Solar,-20.87522418,144.421038
+SA1,Existing Plant,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo) (MAPS3PV1),Solar - Solar,-34.88312843,139.0526123
+QLD1,Existing Plant,Middlemount Solar Farm (MIDDLSF1),Solar - Solar,-22.82287596,148.7180611
+NSW1,Existing Plant,Gullen Range Solar Farm (GULLRSF1),Solar - Solar,-34.6097438,149.4757223
+SA1,Existing Plant,Murray Bridge - Onkaparinga Pipeline Pump 2 (MBPS2PV1),Solar - Solar,-35.09,139.21
+QLD1,Existing Plant,Childers Solar Farm (CHILDSF1),Solar - Solar,-25.3055894,152.4035582
+VIC1,Existing Plant,Cohuna Solar Farm (COHUNSF1),Solar - Solar,-35.88243469,144.2179292
+QLD1,Existing Plant,Haughton Solar Farm Stage 1 (HAUGHT11),Solar - Solar,-19.75000084,147.0483978
+QLD1,Existing Plant,Kidston Solar Project Phase One 50MW (KSP1),Solar - Solar,-18.8921519,144.1384783
+NSW1,Existing Plant,Riverina Energy Storage System 2 (RIVNBG2),Other - Other,-34.64669844,146.0352676
+NSW1,Existing Plant,Condong (CONDONG1),Renewable Biomass or Waste,-28.31457725,153.4338071
+VIC1,Existing Plant,Victorian Big Battery (VBBG1),Other - Other,-38.03785096,144.2908341
+NSW1,Existing Plant,Darlington Point Energy Storage System (DPNTBG1),Other - Other,-34.56667761,145.9997329
+NSW1,Existing Plant,Broadwater (BWTR1),Renewable Biomass or Waste,-29.01226132,153.4327511
+VIC1,Existing Plant,Hazelwood Battery Energy Storage System (HBESS) (HBESSG1),Other - Other,-38.26743009,146.3905322
+QLD1,Existing Plant,Bouldercombe Battery project (BBATTERY),Other - Other,-23.53676594,150.4875673
+QLD1,Existing Plant,Chinchilla BESS (CHBESSG1),Other - Other,-26.91422233,150.748204
+VIC1,Existing Plant,Philip Island BESS (PIBESSG1),Other - Other,-38.49658389,145.229421
+VIC1,Existing Plant,Gannawarra Energy Storage System (GANNBG1),Other - Other,-35.73425191,143.7801472
+VIC1,Existing Plant,Bulgana Green Power Hub - BESS (BULBESG1),Other - Other,-37.03901768,142.9827652
+NSW1,Existing Plant,Wallgrove Grid Battery project (WALGRVG1),Other - Other,-33.81396549,150.8308726
+NSW1,Existing Plant,Queanbeyan BESS (QBYNBG1),Other - Other,-35.33934981,149.2160048
+SA1,Existing Plant,Bolivar Waste Water Treatment (BOWWBA1G),Renewable Biomass or Waste,-34.76836244,138.5885159
+SA1,Existing Plant,Christies Beach Wastewater Treatment Plant (CBWWBA1G),Other - Other,-35.12588471,138.4735195
+SA1,Existing Plant,Angaston (ADPBA1G),Fossil,-35.09663569,138.4816415
+SA1,Existing Plant,Angaston (ANGAST1),Fossil,-34.50322738,139.0244612
+VIC1,Existing Plant,Ballarat Energy Storage System (BALBG1),Other - Other,-37.56765301,143.9198337
+SA1,Existing Plant,Dalrymple BESS (DALNTH01),Other - Other,-34.93390436,137.7435669
+NSW1,Existing Plant,Eraring GT (ERGT01),Fossil,-33.06249191,151.5181719
+NSW1,Existing Plant,Broken Hill GT (GB01),Fossil,-31.9862557,141.4199339
+SA1,Existing Plant,Hornsdale Power Reserve Unit 1 (HPRG1),Other - Other,-33.0864411,138.5198144
+QLD1,Existing Plant,Kennedy Energy Park - Phase 1 - Storage (KEPBG1),Other - Other,-20.87379905,144.412802
+SA1,Existing Plant,Lake Bonney Battery Energy Storage (LBBG1),Other - Other,-37.73898429,140.38683
+QLD1,Existing Plant,Mt Stuart (MSTUART1),Fossil,-19.33719767,146.8502794
+SA1,Existing Plant,Port Lincoln GT (POR01),Fossil,-34.70061465,135.8039208
+SA1,Existing Plant,Port Stanvac 1 (PTSTAN1),Fossil,-35.11024075,138.4915104
+NSW1,Existing Plant,Riverina Energy Storage System 1 (RESS1G),Other - Other,-34.64646552,146.0346952
+SA1,Existing Plant,Snapper Point Power Station (SNAPPER1),Fossil,-34.76404446,138.5067027
+SA1,Existing Plant,Snuggery (SNUG1),Fossil,-37.6639172,140.4165728
+SA1,Existing Plant,Tailem Bend Battery Project (TB2BG1),Other - Other,-35.27054931,139.4885589
+QLD1,Existing Plant,Rocky Point Sugar Mill Cogeneration Plant (RPCG),Renewable Biomass or Waste,-27.7347383,153.3274619
