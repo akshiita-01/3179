@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+  <!-- CSS --> 
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
@@ -32,22 +32,12 @@
       text-align: left;
       margin-bottom: 20px;
       font-size: 18px;
-      color: #666;
-      line-height: 1.5;
-    }
-
-    .big-text {
-      font-size: 24px;
-      text-align: center;
-      padding: 20px;
-      border: 1px solid #ccc;
-      margin: 20px 0;
-      background-color: #f9f9f9;
+      color: black; /* Changed to black */
     }
 
     .vis-container {
-      height: 500px;
-      width: 100%;
+      height: 600px; /* Increased height for var1 */
+      width: 100%; /* Equal width for both visualizations */
     }
 
     .pure-u-1-2 {
@@ -56,17 +46,28 @@
       align-items: center;
     }
 
-    #vis1,
-    #vis2,
-    #vis3,
-    #vis4,
-    #vis5,
-    #vis6 {
+    #vis1, #vis2, #vis3, #vis4, #vis5, #vis6 {
       width: 100%;
-      height: 100%;
+      height: 100%; /* Equal height for all visualizations */
+    }
+
+    .info-box {
+      background-color: darkgreen; /* Dark green background */
+      color: white; /* White text for contrast */
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: underline;
+      font-family: Arial, sans-serif; /* Change to sans-serif font */
+      margin: 20px 0; /* Margin for spacing */
+    }
+
+    .final-text {
+      text-align: center;
+      margin-top: 20px;
+      color: black;
     }
   </style>
-
 </head>
 
 <body style="background-color: #def4c4;">
@@ -78,69 +79,58 @@
       <div class="pure-u-1-1" style="margin-top: auto;">
         <h1>Renewable Energy Statistics Australia</h1>
         <p class="description">A visual analysis of Australia's renewable energy usage by state and fuel type.</p>
-        <p class="description" style="font-size: 15px; text-align: center;">
-          Please use the drop down menus and click on the legends to interact
-          with the graphs and find out more about how energy is produced and
-          used in Australia and its states over the years!
+        <p class="description">Renewable energy consumption by the different states. The colours show locations of different plants. 
+          To interact with the map, use the sliders below it to:
+          <br> - Zoom in/out of the map
+          <br> - Pan left/right
+          <br> - Pan up/down
         </p>
       </div>
     </div>
     <!-- end pure grid group -->
 
-    <!-- Map and Description -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <p class="description" style="font-size: 18px; margin: 20px;">
-          Renewable energy consumption by the different states. The colours 
-          show locations of different plants.
-        </p>
-      </div>
+    <!-- pure grid group -->
+    <div class="pure-g"> 
       <div class="pure-u-1-2">
         <div id="vis1" class="vis-container"></div>
-      </div>
-    </div>
-
-    <!-- Section with breakdown text -->
-    <div class="big-text">
-      Now we will move on to the break down of each fuel type over the years 2001-2023
-    </div>
-
-    <!-- Line Graph and Bubble Plot -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div id="vis3" class="vis-container"></div>
       </div>
       <div class="pure-u-1-2">
         <div id="vis2" class="vis-container"></div>
       </div>
     </div>
+    <!-- end pure grid group -->
 
-    <!-- Heatmap -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <div id="vis4" class="vis-container"></div>
+        <div id="vis3" class="vis-container"></div>
+        <div class="info-box">Now we will move on to the break down of each fuel type over the years 2001-2023</div>
       </div>
     </div>
 
-    <!-- Sector and Import/Export Section -->
-    <div class="big-text" style="margin-top: 20px;">
-      Sectors using fuel and its import/export
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis4" class="vis-container" style="margin: 0 auto;"></div> 
+        <div class="info-box">Sectors using fuel and its import/export</div>
+      </div>
     </div>
 
-    <!-- Import and Export Visualizations -->
     <div class="pure-g">
       <div class="pure-u-1-2">
-        <div id="vis5" class="vis-container"></div>
+        <div id="vis5" class="vis-container" style="margin-right: 10px;"></div>
       </div>
       <div class="pure-u-1-2">
-        <div id="vis6" class="vis-container"></div>
+        <div id="vis6" class="vis-container" style="margin-left: 10px;"></div> 
       </div>
     </div>
+    <!-- end pure grid group -->
 
-    <!-- End page description -->
+    <div class="final-text">
+      <p>Thank you for exploring Australia's renewable energy statistics!</p>
+    </div>
+
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
-        <p>This visualization is created by Akshita Mediratta.</p>
+        <p>This visualisation is created by Akshita Mediratta.</p>
       </div>
     </div>
 
@@ -152,7 +142,7 @@
     var specVis3 = "./Australian_energyprod.json";
     var specVis4 = "./Electricitygen.json";
     var specVis5 = "./importexport.json";
-    var specVis6 = "./Sectorenergy.json";
+    var specVis6 = "./Sectorenergy.json"
 
     vegaEmbed('#vis1', specVis1, { "actions": false });
     vegaEmbed('#vis2', specVis2, { "actions": false }).catch(console.error);
