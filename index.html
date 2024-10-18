@@ -44,8 +44,9 @@
     }
 
     .vis-container {
-      height: 400px;
+      height: 350px;
       width: 100%;
+      background: #000;
     }
 
     .map-container {
@@ -75,6 +76,7 @@
       font-weight: bold;
       text-decoration: none;
       font-family: sans-serif;
+      border-radius: 10px;
     }
 
     #vis1 {
@@ -110,6 +112,21 @@
 
     .text-right-bottom {
       margin-top: 20px;
+    }
+
+    .pure-g {
+      padding: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    .chart-desc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   </style>
 </head>
@@ -161,6 +178,23 @@
   <div class="pure-g">
     <div class="pure-u-1-2">
       <div id="vis2" class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-2 chart-desc">
+      <div class="text-left">
+        <p><b>Note:</b> Use the dropdown to filter based on States!</p>
+        <p>This bubble chart beside illustrates 
+        the percentage of energy consumed by different Australian states, categorized by fuel type. <br>
+        Each bubble represents a state, and its size corresponds to the percentage of energy consumption for a specific fuel type. </p>
+      </div>
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-1-2 chart-desc">
+      <div class="text-right">
+        <p>The line graph shows the total energy production in Australia from 2001 to 2023, segmented by fuel types. </p>
+        <p>Renewable energy production has significantly increased since 2010, contrasting with a decline in coal and oil production. This reflects the national shift towards cleaner energy sources.</p>
+        <p> Solar energy generation has experienced rapid growth, especially in recent years, while hydro remains a consistent contributor to Australia’s renewable energy mix.</p>
+  </div>
     </div>
     <div class="pure-u-1-2">
       <div id="vis3" class="vis-container"></div>
