@@ -41,7 +41,7 @@
     {
       "mark": {
         "type": "arc",
-        "innerRadius": 60 
+        "innerRadius": 90 
       },
       "encoding": {
         "theta": {
@@ -64,7 +64,7 @@
     {
       "mark": {
         "type": "text",
-        "radius": 90 
+        "radius": 130 
       },
       "encoding": {
         "text": {
