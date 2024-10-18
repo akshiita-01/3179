@@ -67,7 +67,8 @@
     }
 
     .text-box {
-      background-color: darkgreen;
+      background: linear-gradient(45deg, #006400, #228B22, #32CD32, #7FFF00); /* Define your gradient colors */
+      background-size: 400% 400%; /* This ensures the background will animate smoothly */
       color: white;
       padding: 15px;
       margin: 20px;
@@ -77,6 +78,26 @@
       text-decoration: none;
       font-family: sans-serif;
       border-radius: 10px;
+      animation: gradientRotation 10s ease infinite; /* Animation applied */
+    }
+
+    /* Keyframes for rotating the gradient */
+    @keyframes gradientRotation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .section-header-content {
+      background-color: darkgreen;
+      border-radius: 10px;
+      padding: 15px;
     }
 
     #vis1 {
@@ -106,7 +127,6 @@
     }
 
     .text-left, .text-right {
-      width: 15%;
       margin: 20px;
     }
 
@@ -119,6 +139,7 @@
       margin-top: 10px;
       margin-bottom: 10px;
       border: 1px solid #e0e0e0;
+      background-color: white;
       border-radius: 12px;
       box-shadow: 0 10px 50px rgba(0, 0, 0, 0.25);
     }
@@ -127,6 +148,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 50%;
     }
   </style>
 </head>
@@ -134,12 +156,12 @@
 <body class="inter-inter">
 
   <!-- Title Section -->
-  <div class="pure-g">
-    <div class="pure-u-1-1">
-      <h1>Renewable Energy  Australia</h1>
-      <p class="subhead">A visual analysis of Australia's renewable energy usage.</p>
-    </div>
-  </div>
+  
+    
+    <h1>Renewable Energy  Australia</h1>
+    <p class="subhead">A visual analysis of Australia's renewable energy usage.</p>
+  
+  
 
   <!-- Map and Text Section -->
   <div class="pure-g map-container">
@@ -170,8 +192,10 @@
 
   <!-- Middle Text Box Section -->
   <div class="text-box">
-    Now we will move on to the breakdown of each <br>
-    fuel type over the years 2001-2023
+    <div class="section-header-content">
+      Now we will move on to the breakdown of each <br>
+      fuel type over the years 2001-2023
+    </div>
   </div>
 
   <!-- Graphs Section: var2 and var3 -->
@@ -203,24 +227,18 @@
 
   <!-- Heatmap Section (var4) and Text Containers -->
   <div class="pure-g">
-    <div class="pure-u-1-5 text-left">
-      <p>Note: Use the dropdown to filter based on States!</p>
-      <p>This bubble chart above illustrates 
-        the percentage of energy consumed by different Australian states, categorized by fuel type. Each bubble represents a state, and its size corresponds to the percentage of energy consumption for a specific fuel type. </p>
-    </div>
+   
     <div class="pure-u-3-5">
       <div id="vis4" class="vis-container"></div>
     </div>
-    <div class="pure-u-1-5 text-right">
-      <p>The line graph shows the total energy production in Australia from 2001 to 2023, segmented by fuel types. </p>
-      <p>Renewable energy production has significantly increased since 2010, contrasting with a decline in coal and oil production. This reflects the national shift towards cleaner energy sources.</p>
-    <p> Solar energy generation has experienced rapid growth, especially in recent years, while hydro remains a consistent contributor to Australia’s renewable energy mix.</p>
-    </div>
+    
   </div>
 
   <!-- New Section Text Box -->
   <div class="text-box">
-    Delve into the Australian energy consumption by sector its import/export!
+    <div class="section-header-content">
+      Delve into the Australian energy consumption by sector its import/export!
+    </div>
   </div>
 
   <!-- Visual Section: vis6 (right) and vis5 (left bigger) -->
@@ -240,11 +258,10 @@ Refined products show a consistent import trend, reflecting the country's relian
   </div>
 
   <!-- Footer Text -->
-  <div class="pure-g">
-    <div class="pure-u-1-1">
-      <p class="description"> The charts show Australia’s gradual shift towards renewable energy, with solar and wind playing an increasing role, particularly in states like Queensland and New South Wales. However, fossil fuels, especially coal and natural gas, still dominate production and exports. Transport remains the largest energy consumer, driven by heavy road and air travel across vast distances. While renewable generation is rising, the data highlights Australia’s ongoing reliance on traditional energy sources, especially in the transport sector.</p>
-    </div>
-  </div>
+ <footer>
+   <p class="description"> The charts show Australia’s gradual shift towards renewable energy, with solar and wind playing an increasing role, particularly in states like Queensland and New South Wales. However, fossil fuels, especially coal and natural gas, still dominate production and exports. Transport remains the largest energy consumer, driven by heavy road and air travel across vast distances. While renewable generation is rising, the data highlights Australia’s ongoing reliance on traditional energy sources, especially in the transport sector.</p>
+ </footer>
+    
 
 
 
