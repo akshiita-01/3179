@@ -170,8 +170,9 @@
   <!-- Heatmap Section (var4) and Text Containers -->
   <div class="pure-g">
     <div class="pure-u-1-5 text-left">
-      <p>This bubble chart illustrates 
-        the percentage of energy consumed by different Australian states, categorized by fuel type. Each bubble represents a state, and its size corresponds to the percentage of energy consumption for a specific fuel type</p>
+      <p>Note: Use the dropdown to filter based on States!</p>
+      <p>This bubble chart above illustrates 
+        the percentage of energy consumed by different Australian states, categorized by fuel type. Each bubble represents a state, and its size corresponds to the percentage of energy consumption for a specific fuel type. </p>
     </div>
     <div class="pure-u-3-5">
       <div id="vis4" class="vis-container"></div>
@@ -191,7 +192,12 @@
   <!-- Visual Section: vis6 (right) and vis5 (left bigger) -->
   <div class="pure-g">
     <div class="pure-u-1-2">
-      <div id="vis5" class="vis-container"></div>
+      <div id="vis5" class="vis-container">
+        <p class="description text-left-bottom">
+          Note: the above map uses scaled values (using log) for the Fuel values in PetaJoules</p>
+          <p>Natural gas exports have grown substantially since 2010, contributing to Australia’s increased energy exports.
+Refined products show a consistent import trend, reflecting the country's reliance on foreign-refined fuels.</p>
+      </div>
     </div>
     <div class="pure-u-1-2">
       <div id="vis6" class="vis-container"></div>
@@ -202,9 +208,12 @@
   <!-- Footer Text -->
   <div class="pure-g">
     <div class="pure-u-1-1">
-      <p class="description">This visualisation is created by Akshita Mediratta.</p>
+      <p class="description">Electricity is the biggest conusmer of electricity, however Transport has grown as a consumer in the recent years Australia's unique geographic and economic factors, combined with its reliance on fossil fuels and long-distance transport</p>
     </div>
   </div>
+
+
+
 
   <!-- Embedding Vega Visualizations -->
   <script type="text/javascript">
