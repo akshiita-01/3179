@@ -42,7 +42,5 @@
       { "field": "Generated Energy (GwH)", "type": "quantitative", "title": "Generated Energy (GWh)" }
     ]
   },
-  "width": 450,
-  "height": 400,
   "title": "Renewable Energy Generation (GWh) by Fuel Type and Year"
 }
