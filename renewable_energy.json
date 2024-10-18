@@ -32,8 +32,9 @@
         "input": "range",
         "min": -45,
         "max": -12,
-        "name": "Move the map up and down  ",
-        "orient": "vertical"
+        "name": "Move the map up and down  "
+
+        
       }
     }
   ],

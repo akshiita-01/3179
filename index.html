@@ -9,11 +9,26 @@
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
   <!-- CSS Styles -->
   <style>
+
+    .text-box{
+      text-decoration: none;
+    }
+
+    .inter-inter {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400; /* Regular */
+      font-style: normal;
+    }
+
     body {
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Inter', sans-serif;
       background-color: #def4c4;
     }
 
@@ -26,6 +41,9 @@
       text-align: justify;
       margin: 10px 20px;
       font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .vis-container {
@@ -93,7 +111,7 @@
   </style>
 </head>
 
-<body>
+<body class="inter-inter">
 
   <!-- Title Section -->
   <div class="pure-g">
@@ -106,14 +124,23 @@
   <!-- Map and Text Section -->
   <div class="pure-g map-container">
     <div class="pure-u-1-2 description">
-      <p>Renewable energy consumption by the different states. </p>
-      <p>The colours show locations of different plants. </p>
-      <p>Use the sliders below to zoom or pan the map: </p>
-      <ul>
-        <li>Zoom to focus on a specific area</li>
-        <li>Pan left/right to explore regions</li>
-        <li>Pan up/down to move vertically</li>
-      </ul>
+      <div>  
+        
+        <p> This interactive map visualizes renewable energy consumption patterns across various <br>
+          states in Australia. The map highlights the distribution of renewable <br>
+          energy plants, providing insights into how different types of renewable <br>
+           energy sources, such as wind, solar, hydro, and bioenergy, contribute <br>
+           to each state's energy mix. </p>
+
+<p> Map Navigation Instructions: <br>
+
+  Zoom: Use the slider below to zoom into specific regions <br>
+  Move horizontally to explore the east-west spread of renewable energy<br>
+  Navigate vertically to explore northern and southern regions <br>
+
+
+      
+      </div>
     </div>
     <div class="pure-u-1-2">
       <div id="vis1" class="vis-container"></div>
