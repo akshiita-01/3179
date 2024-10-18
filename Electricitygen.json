@@ -1,5 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width" : 500,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/Electriciygenfromrenewable.csv",  
     "format": {
