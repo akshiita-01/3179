@@ -1,8 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Australian Energy Consumption by Sector",
-  "width": 250,
-  "height": 250,
   "data": {
     "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/Sectorenergy.csv",
     "format": {"type": "csv"}
