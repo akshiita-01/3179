@@ -12,7 +12,7 @@
         "min": 560,
         "max": 5000,
         "step": 5,
-        "name": "Zoom Level"
+        "name": "Zoom into the map  "
       }
     },
     {
@@ -22,7 +22,7 @@
         "input": "range",
         "min": 115,
         "max": 150,
-        "name": "Pan Left/Right"
+        "name": "Move the map left and right  "
       }
     },
     {
@@ -32,7 +32,7 @@
         "input": "range",
         "min": -45,
         "max": -12,
-        "name": "Pan Up/Down",
+        "name": "Move the map up and down  ",
         "orient": "vertical"
       }
     }
