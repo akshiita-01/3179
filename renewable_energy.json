@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Australian Renewable Energy Consumption 2022-2023 (with Plant Locations) ",
+  "width": 500,
+  "height" : 500
   "params": [
     {
       "name": "zoom",
