@@ -1,7 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 600,
   "title": "Import/Export for Fuel Types Australia 2001-2023",
   "data": {
     "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/importexport.csv",
