@@ -1,7 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 470,
-  "height": 300,
   "title": "Energy Consumed (%) by State",
   "data": {
       "url": "https://raw.githubusercontent.com/akshiita-01/3179/refs/heads/main/week%2010%20hw/Australian_energymixbystateandfuel.csv",
