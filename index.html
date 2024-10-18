@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  
+
   <!-- CSS Styles -->
   <style>
     body {
@@ -56,14 +56,34 @@
       height: 500px;
     }
 
-    #vis2, #vis3, #vis4 {
+    #vis2, #vis3 {
       width: 49%;
       height: 400px;
     }
 
-    #vis5, #vis6 {
-      width: 49%;
+    #vis4 {
+      width: 60%;
       height: 400px;
+      margin: auto;
+    }
+
+    #vis5 {
+      width: 65%;
+      height: 500px;
+    }
+
+    #vis6 {
+      width: 30%;
+      height: 400px;
+    }
+
+    .text-left, .text-right {
+      width: 15%;
+      margin: 20px;
+    }
+
+    .text-right-bottom {
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -102,20 +122,26 @@
     2001-2023.
   </div>
 
-  <!-- Graphs Section: var3 and var2 -->
+  <!-- Graphs Section: var2 and var3 -->
   <div class="pure-g">
-    <div class="pure-u-1-2">
-      <div id="vis3" class="vis-container"></div>
-    </div>
     <div class="pure-u-1-2">
       <div id="vis2" class="vis-container"></div>
     </div>
+    <div class="pure-u-1-2">
+      <div id="vis3" class="vis-container"></div>
+    </div>
   </div>
 
-  <!-- Heatmap Section (var4) -->
+  <!-- Heatmap Section (var4) and Text Containers -->
   <div class="pure-g">
-    <div class="pure-u-1-1">
+    <div class="pure-u-1-5 text-left">
+      <p>Left-side text container explaining fuel trends.</p>
+    </div>
+    <div class="pure-u-3-5">
       <div id="vis4" class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-5 text-right">
+      <p>Right-side text container providing additional details on data.</p>
     </div>
   </div>
 
@@ -124,16 +150,18 @@
     Sectors using fuel and its import/export.
   </div>
 
-  <!-- Visual Section: var5 and var6 -->
+  <!-- Visual Section: vis6 (right) and vis5 (left bigger) -->
   <div class="pure-g">
     <div class="pure-u-1-2">
       <div id="vis5" class="vis-container"></div>
     </div>
     <div class="pure-u-1-2">
       <div id="vis6" class="vis-container"></div>
+      <p class="description text-right-bottom">Text underneath vis6 to explain further.</p>
     </div>
   </div>
 
+  <!-- Footer Text -->
   <div class="pure-g">
     <div class="pure-u-1-1">
       <p class="description">This visualisation is created by Akshita Mediratta.</p>
