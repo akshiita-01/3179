@@ -29,8 +29,8 @@
     }
 
     .vis-container {
-      height: 400px;
       width: 100%;
+      height: 400px; /* Same height for all visualizations */
     }
 
     .map-container {
@@ -49,32 +49,6 @@
       font-weight: bold;
       text-decoration: underline;
       font-family: sans-serif;
-    }
-
-    #vis1 {
-      width: 90%;
-      height: 500px;
-    }
-
-    #vis2, #vis3 {
-      width: 49%;
-      height: 400px;
-    }
-
-    #vis4 {
-      width: 60%;
-      height: 400px;
-      margin: auto;
-    }
-
-    #vis5 {
-      width: 65%;
-      height: 500px;
-    }
-
-    #vis6 {
-      width: 30%;
-      height: 400px;
     }
 
     .text-left, .text-right {
@@ -122,7 +96,7 @@
     2001-2023.
   </div>
 
-  <!-- Graphs Section: var2 and var3 -->
+  <!-- Graphs Section: vis2 and vis3 -->
   <div class="pure-g">
     <div class="pure-u-1-2">
       <div id="vis2" class="vis-container"></div>
@@ -132,7 +106,7 @@
     </div>
   </div>
 
-  <!-- Heatmap Section (var4) and Text Containers -->
+  <!-- Heatmap Section (vis4) and Text Containers -->
   <div class="pure-g">
     <div class="pure-u-1-5 text-left">
       <p>Left-side text container explaining fuel trends.</p>
@@ -150,7 +124,7 @@
     Sectors using fuel and its import/export.
   </div>
 
-  <!-- Visual Section: vis6 (right) and vis5 (left bigger) -->
+  <!-- Visual Section: vis6 (right) and vis5 (left) with same size -->
   <div class="pure-g">
     <div class="pure-u-1-2">
       <div id="vis5" class="vis-container"></div>
